@@ -1,0 +1,27 @@
+.ol-list{
+    margin: 1rem;
+}
+
+.li{
+    padding: 0.5rem;
+}
+.list-stacked{
+    background-color: #fff;
+    width: fit-content;
+    border: solid 1px var(--light-gray);;
+    padding: 0;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.list-stacked-item{
+    list-style: none;
+    padding: 1rem;
+    min-width:10rem;
+    max-width: 100%;
+    border-top: solid 1px var(--light-gray);
+    /* margin: 0.5rem; */
+    /* border-radius: 5px; */
+}
+.list-stacked-item:nth-child(1){
+    border: none;
+}
