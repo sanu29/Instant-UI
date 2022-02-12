@@ -1,0 +1,37 @@
+.avtar{
+    background-color: #F4DD7D;
+    border-radius   : 50%;
+    height          : 3rem;
+    width           : 3rem;
+    margin          : 2px 8px 2px 8px;
+}
+.av-sm{
+    height          : 2.4rem;
+    width           : 2.4rem;
+}
+.av-xs{
+    height          : 1.8rem;
+    width           : 1.8rem;
+}
+.av-lg{
+    height          : 4rem;
+    width           : 4rem;
+}
+.av-margin-shadow{
+    box-shadow      :1px 1px 5px 0px rgba(0,0,0,0.6),
+                     -5px 2px 50px 0px #037cd5,
+                     inset -5px -5px 10px 0px #FFFF00;
+}
+.av-margin-buzy{
+    border          :solid 2px white;
+    box-shadow      :0px 0px 1px 3px #9f091d;
+}
+.av-margin-online{
+    border          :solid 2px white;
+    box-shadow      :0px 0px 3px 4px var(--success);
+}
+.av-margin-offline{
+    border          : solid 2px white;
+    box-shadow      : 0px 0px 3px 4px var(--gray-dark);
+}
+
