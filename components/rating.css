@@ -1,5 +1,5 @@
 .rating{
-    color: orange;
+    color: var(--warning);
     cursor: pointer;
     
 }
