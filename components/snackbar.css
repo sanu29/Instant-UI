@@ -1,0 +1,23 @@
+.snackbar{
+    display: flex;
+    flex-direction: row;
+   background-color: var(--dark);
+   max-width: 30rem;
+   padding: 1rem;
+   color: var(--white);
+   border-radius: 5px;
+   justify-content: space-between;
+   margin: 1rem;
+   position: absolute;
+   top: 1px;
+   right: 1px;
+   align-content: center;
+}
+
+.snackbar-txt{
+   align-self: center;
+   justify-self: center;
+   padding: 5px;
+   font-weight: 500;
+   margin:0 1rem ;
+}
