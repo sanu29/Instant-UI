@@ -1,0 +1,50 @@
+/* position */
+.overflow-hidden            {    overflow: hidden;          }
+.overflow-scroll            {    overflow: scroll;          }
+.position-relative          {    position: relative;        }
+.position-absolute          {    position: absolute;        }
+
+/* box shadow */
+.box-shadow                 {       box-shadow:         0 .5rem 1rem var(--black-light)         }
+.box-shadow-sm              {       box-shadow:      0 .125rem .25rem var(--black-light)        }
+.box-shadow-lg              {       box-shadow:      0 1rem 3rem var(--black-light)             }
+
+/* font-weight */
+.font-weight-lighter        {   font-weight:  100       }
+.font-weight-light          {   font-weight:  200       }        
+.font-weight-normal         {   font-weight:  300       }       
+.font-weight-bold           {   font-weight:  500       }          
+.font-weight-bolder         {   font-weight:  700       }         
+
+
+/* borders */
+
+
+.border-1   {    border: solid 1px var(--black-dark);   }
+.border-2   {    border: solid 2px var(--black-dark);   }
+.border-3   {    border: solid 3px var(--black-dark);   }
+.border-4   {    border: solid 4px var(--black-dark);   }
+.border-5   {    border: solid 5px var(--black-dark);   }
+
+/* border colors */
+
+.border-color-primary   {       border-color: var(--primary);     }
+.border-color-danger    {       border-color: var(--danger);      }
+.border-color-warning   {       border-color: var(--warning);     }
+.border-color-info      {       border-color: var(--info);        }
+.border-color-secondary {       border-color: var(--secondary);   }
+.border-color-light     {       border-color: var(--light);       }
+.border-color-inherit   {       border-color: inherit;            }
+
+/* Background default colors */
+
+
+.bg-white       {    background-color: #fff;              }
+.bg-primary     {    background-color: var(--primary);      }
+.bg-secondary   {    background-color: var(--secondary);    }
+.bg-danger      {    background-color: var(--danger);       }
+.bg-info        {    background-color: var(--info);         }
+.bg-warning     {    background-color: var(--warning);      }
+.bg-light       {    background-color: var(--light);        }
+.bg-dark        {    background-color: var(--dark);         }
+
