@@ -6,7 +6,7 @@
     width: 100vw;
     background-color: var(--primary-color);
     padding: 0.5rem;
-    color: #fff;
+    color: var(--white);
     border-radius:5px;
     margin: 1rem 0rem 1rem 0;
 }
@@ -20,26 +20,21 @@
     padding: 0.5rem;
     border-radius: 50% ;
 }
-
-
 .header-icon:hover{
     background-color: var(--primary);
-
 }
-
 .header-end-icons{
     display: flex;
     width: 100%;
     justify-content: end;
 }
-
 .header-short{
     width: 8rem;
     display: flex;
     flex-direction: row;
     background-color: var(--primary-color);
-    padding: 0.5rem 1rem  0.5rem 0  ;
+    padding: 0.5rem 1rem  0.5rem 0;
     color: #fff;
-    margin: 1rem 0rem 1rem 0;
+    margin: 1rem 0rem;
     border-bottom-right-radius: 1.5rem;
 }
