@@ -12,9 +12,9 @@
   }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: var(--white);
     margin: 15% auto; 
-    border: 1px solid #888;
+    border: 1px solid var(--gray);
     width: 80%; 
   }
   
@@ -22,5 +22,5 @@
 .modal-text{
     font-size: 1rem;
     margin: 1rem;
-    color: gray;
+    color: var(--gray);
 }
