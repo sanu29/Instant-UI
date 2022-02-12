@@ -35,7 +35,7 @@
 .border-color-secondary {       border-color: var(--secondary);   }
 .border-color-light     {       border-color: var(--light);       }
 .border-color-inherit   {       border-color: inherit;            }
-
+.border-color-gray      {       border-color: var(--light-gray);}
 /* Background default colors */
 
 
@@ -48,3 +48,14 @@
 .bg-light       {    background-color: var(--light);        }
 .bg-dark        {    background-color: var(--dark);         }
 
+/* Text colors */
+
+
+.font-color-white       {    color: #fff;              }
+.font-color-primary     {    color: var(--primary);      }
+.font-color-secondary   {    color: var(--secondary);    }
+.font-color-danger      {    color: var(--danger);       }
+.font-color-info        {    color: var(--info);         }
+.font-color-warning     {    color: var(--warning);      }
+.font-color-light       {    color: var(--light);        }
+.font-color-dark        {    color: var(--dark);         }
