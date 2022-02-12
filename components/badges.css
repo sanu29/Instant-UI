@@ -1,7 +1,7 @@
 .badge{
     display         : inline ;
     margin          : 4px;
-    line-height     : 48px;
+    line-height     : 3rem;
     border          : solid var(--gray) 1px;
     border-radius   : 10px;
     padding         :  3px  7px 3px 7px;
@@ -37,7 +37,7 @@
 /* badge on avtar */
 .badge-online{
     background-color:var(--success);
-    border          : solid 2px #fff;
+    border          : solid 2px var(--white);
     height          : 1rem;
     width           : 1rem;
     bottom          : -5px;
@@ -45,17 +45,17 @@
 }
 .badge-buzy{
     background-color:var(--danger);
-    border          : solid 2px #fff;
+    border          : solid 2px var(--white);
     height          : 1.3rem;
     width           : 1.3rem;
     bottom          : 2px;
     right           : 7px;
     text-align      : center;
-    color           : #fff;
+    color           : #var(--white);
 }
 .badge-offline{
     background-color:var(--gray);
-    border          : solid 2px #fff;
+    border          : solid 2px var(--white);
     min-height      : 1rem;
     min-width       : 1rem;
     width           : fit-content;
