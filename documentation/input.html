@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../component.css">
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Input</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+            <img src="../assets/images/logo1.png" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end">
+                <a href="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a href="https://github.com/sanu29/Instant-UI" class="heading-3  margin-8 btn font-color-white">Github</a>
+            </div>
+
+        </div>
+        <!-- Navigation -->
+        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder para4">Getting Started</li>
+                <li class="component"><a href="#">Introduction</a></li>
+                <li class="component"><a href="#">Colors</a></li>
+                <li class="component"><a href="#">Typography</a></li>
+                <li class="component"><a href="#">Utilities</a></li>
+                <hr class="divider">
+                <li class="margin-8 font-weight-bolder para4">Components</li>
+                <li class="component"><a href="alert.html">Alert</a></li>
+                <li class="component"><a href="avtar.html">Avtar</a></li>
+                <li class="component"><a href="badge.html">Badges</a></li>
+                <li class="component"><a href="buttons.html">Buttons</a></li>
+                <li class="component"><a href="cards.html">Cards</a></li>
+                <li class="component"><a href="headers.html">Headers</a></li>
+                <li class="component"><a href="images.html" >Images</a></li>
+                <li class="component"><a href="input.html"class="active">Inputs</a></li>
+                <li class="component"><a href="list.html">List</a></li>
+                <li class="component"><a href="modals.html">Modals And SnackBar</a></li>
+                <li class="component"><a href="ratings.html">Ratings</a></li>
+            </ul>
+        </div>
+        <!-- Nav on Page -->
+        <div class="nav-on-page">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder heading4 text-primary">On This Page</li>
+                <li class="component"><a href="#simple">Inputs in sizes</a></li>
+                <li class="component"><a href="#type">Types of Input</a></li>
+                <li class="component"><a href="#radio">Check-Box and Radio-Button</a></li>
+                <li class="component"><a href="#form">Form</a></li>
+           
+
+            </ul>
+        </div>
+
+        <!-- MAIN -->
+        <div class="main">
+            <div class="container-main">
+                <div class="heading2 font-weight-bolder text-primary">Inputs</div>
+                <div class="para5 margin-8">
+                    <!-- Intro -->
+                        Inputs are vary inportant to get and Show data to users.
+                </div>
+
+
+                 <!--Type of Inputs-->
+   <div class="simple-alerts" id="simple">
+    <div class="heading3 margin-8 padding-24 text-secondary">Input Sizes</div>
+       <div class="para5 descreption-text">
+            Inputs can be used by adding class .input to a input tag. For diffrent sizes input keyword folloes by -variant can be used.
+    </div>
+    <div class="d-flex-row justify-content-center align-items-center w-100">
+        <div
+            class="example-output margin-8 w-100  padding-24 border-1 border-color-gray d-flex-column justify-content-center  border-radius-sm">
+    
+            <label for="username" class="para5 label m-8">Small Input</label>
+            <input type="text" id="username" class="input input-sm " placeholder="Name" required>
+
+            <label for="username" class="para5 m-8 label">Regular Input</label>
+        <input type="text" id="username" class="input" placeholder="Name" required>
+
+
+        <label for="username" class="para5 m-8 label">Large Input</label>
+        <input type="text" id="username" class="input input-lg" placeholder="Name" required>
+
+          
+        </div>
+    </div>
+</div>   
+<div class="iframes  border-radius-sm">
+    <iframe
+    src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522para5%2520m-8%2522%253ESmall%2520Input%253C%252Flabel%253E%250A%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522username%2522%2520class%253D%2522input%2520input-sm%2520%2522%2520placeholder%253D%2522Name%2522%2520required%253E%250A%250A%2520%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522para5%2520m-8%2522%253ERegular%2520Input%253C%252Flabel%253E%250A%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522username%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Name%2522%2520required%253E%250A%250A%2520%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522para5%2520m-8%2522%253ELarge%2520Input%253C%252Flabel%253E%250A%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522username%2522%2520class%253D%2522input%2520input-lg%2522%2520placeholder%253D%2522Name%2522%2520required%253E%250A"
+     style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+    </iframe>
+
+</div>
+
+    <!--Type of Inputs-->
+    <div class="simple-alerts" id="type">
+        <div class="heading3 margin-8 padding-24 text-secondary">Input Types</div>
+           <div class="para5 descreption-text">
+                </div>
+        <div class="d-flex-row justify-content-center align-items-center w-100">
+            <div
+                class="example-output margin-8 w-100  padding-24 border-1 border-color-gray d-flex-column justify-content-center  border-radius-sm">
+                <label for="error" class="para5 m-8 label">Error Input</label>
+                <input type="text" id="error" class="input input-error" placeholder="Name" required>
+                 <label for="error" class="input-error-text para6 m-0">Error</label>
+
+                 <label for="error" class="para5 m-8 label">Warning Input</label>
+                 <input type="text" id="error" class="input input-error border-color-warning" placeholder="Name" required>
+                  <label for="error" class="font-color-warning para6 m-0">Warning</label>
+     
+                  <label for="error" class="para5 m-8 label">Success Input</label>
+                  <input type="text" id="error" class="input input-error border-color-success" placeholder="Name" required>
+                   <label for="error" class="font-color-success para6 m-0">success</label>
+
+                   <label for="readonly" class="para5 m-8 label">ReadOnly Input</label>
+               <input type="text" id="readonly" class="input input-readonly w-100 " value="Read Only !!!!!" readonly required>
+     
+                   
+            </div>
+        </div>
+    </div>   
+    <div class="iframes  border-radius-sm">
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Clabel%2520for%253D%2522error%2522%2520class%253D%2522para5%2520m-8%2520label%2522%253EError%2520Input%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522error%2522%2520class%253D%2522input%2520input-error%2522%2520placeholder%253D%2522Name%2522%2520required%253E%250A%253Clabel%2520for%253D%2522error%2522%2520class%253D%2522input-error-text%2520para6%2520m-0%2522%253EError%253C%252Flabel%253E%250A%250A%253Clabel%2520for%253D%2522error%2522%2520class%253D%2522para5%2520m-8%2520label%2522%253EWarning%2520Input%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522error%2522%2520class%253D%2522input%2520input-error%2520border-color-warning%2522%2520placeholder%253D%2522Name%2522%2520required%253E%250A%253Clabel%2520for%253D%2522error%2522%2520class%253D%2522font-color-warning%2520para6%2520m-0%2522%253EWarning%253C%252Flabel%253E%250A%250A%253Clabel%2520for%253D%2522error%2522%2520class%253D%2522para5%2520m-8%2520label%2522%253Esuccess%2520Input%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522error%2522%2520class%253D%2522input%2520input-error%2520border-color-success%2522%2520placeholder%253D%2522Name%2522%2520required%253E%250A%253Clabel%2520for%253D%2522error%2522%2520class%253D%2522font-color-success%2520para6%2520m-0%2522%253Esuccess%253C%252Flabel%253E%250A%2520%2520%250A%253Clabel%2520for%253D%2522readonly%2522%2520class%253D%2522para5%2520m-8%2520label%2522%253EReadOnly%2520Input%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522readonly%2522%2520class%253D%2522input%2520input-readonly%2520w-100%2520%2522%2520value%253D%2522Read%2520Only%2520%21%21%21%21%21%2522%2520readonly%2520required%253E"
+       style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+        </iframe>
+    
+    </div>
+
+        <!--Check Box and Radio Buttons-->
+        <div class="simple-alerts" id="radio">
+            <div class="heading3 margin-8 padding-24 text-secondary">Check Box and Radio Buttons</div>
+               <div class="para5 descreption-text">
+                
+            </div>
+            <div class="d-flex-row justify-content-center align-items-center w-100">
+                <div
+                    class="example-output margin-8 w-100  padding-24 border-1 border-color-gray d-flex-column justify-content-center  border-radius-sm">
+                    <h3 class="heading4">Check-box</h3>
+                    <div class="margin-16">
+
+                        <input type="checkbox" name="number" class="input input-checkbox" value="one" id="one">
+                        <label for="one">One</label>
+                        <input type="checkbox" name="number" class="input input-checkbox" value="two" id="two">
+                        <label for="two">Two</label>
+              
+
+                    </div>
+                  
+                    <h3 class="heading4">Radio-Button</h3>
+            
+                    
+               <div class="margin-16">
+                <input type="radio" name="name" class=" input-radio" value="one" id="one">
+                <label for="one">One</label>
+                <input type="radio" name="name" class=" input-radio" value="two" id="two">
+                <label for="two">Two</label>
+          
+               </div>
+                         
+               
+            </div>
+        </div>   
+        <div class="iframes  border-radius-sm">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522number%2522%2520class%253D%2522input%2520input-checkbox%2522%2520value%253D%2522one%2522%2520id%253D%2522one%2522%253E%250A%253Clabel%2520for%253D%2522one%2522%253EOne%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522number%2522%2520class%253D%2522input%2520input-checkbox%2522%2520value%253D%2522two%2522%2520id%253D%2522two%2522%253E%250A%253Clabel%2520for%253D%2522two%2522%253ETwo%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522name%2522%2520class%253D%2522%2520input-radio%2522%2520value%253D%2522one%2522%2520id%253D%2522one%2522%253E%250A%253Clabel%2520for%253D%2522one%2522%253EOne%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522name%2522%2520class%253D%2522%2520input-radio%2522%2520value%253D%2522two%2522%2520id%253D%2522two%2522%253E%250A%253Clabel%2520for%253D%2522two%2522%253ETwo%253C%252Flabel%253E"
+            style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+            </iframe>
+        
+        </div>
+
+
+        
+        <!--Check Box and Radio Buttons-->
+        <div class="simple-alerts" id="form">
+            <div class="heading3 margin-8 padding-24 text-secondary">Form</div>
+               <div class="para5 descreption-text">
+                
+            </div>
+            <div class="d-flex-row justify-content-center align-items-center w-100">
+                <div
+                    class="example-output margin-8 w-100  padding-24 border-1 border-color-gray d-flex-column justify-content-center  border-radius-sm">
+                    
+                    <form class="d-flex-column">
+                    <label for="username" class="para5 m-8 label">Name</label>
+                    <input type="text" id="username" class="input" placeholder="Name" required>
+            
+                    <label for="Password" class="para5 m-8 label">Password</label>
+                    <input type="password" id="Password" class="input" placeholder="Name" required>
+
+                    <label for="Address" class="para5 m-8 label">Address</label>
+                    <textarea name="textarea" class="input" id="Address"></textarea>
+            
+                  
+               <div class="margin-16">
+
+                <label for=" " >Gender</label>
+                
+                <input type="radio" name="gender" class=" input-radio" value="male" id="male">
+                <label for="male" >Male</label>
+                <input type="radio" name="gender" class=" input-radio " value="female" id="female">
+                <label for="female">Female</label>
+          
+               </div>
+
+               <button type="submit" class="btn btn-primary">Submit</button>
+                         
+            </form>
+            </div>
+        </div>   
+        <div class="iframes  border-radius-sm">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522para5%2520m-8%2520label%2522%253EName%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522username%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Name%2522%2520required%253E%250A%2520%2520%250A%253Clabel%2520for%253D%2522Password%2522%2520class%253D%2522para5%2520m-8%2520label%2522%253EPassword%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522Password%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Name%2522%2520required%253E%250A%250A%253Clabel%2520for%253D%2522Address%2522%2520class%253D%2522para5%2520m-8%2520label%2522%253EAddress%253C%252Flabel%253E%250A%253Ctextarea%2520name%253D%2522textarea%2522%2520class%253D%2522input%2522%2520id%253D%2522Address%2522%253E%253C%252Ftextarea%253E%250A%250A%253Clabel%2520for%253D%2522%2520%2522%2520%253EGender%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520class%253D%2522%2520input-radio%2522%2520value%253D%2522male%2522%2520id%253D%2522male%2522%253E%250A%253Clabel%2520for%253D%2522male%2522%2520%253EMale%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520class%253D%2522%2520input-radio%2520%2522%2520value%253D%2522female%2522%2520id%253D%2522female%2522%253E%250A%253Clabel%2520for%253D%2522female%2522%253EFemale%253C%252Flabel%253E%250A%250A%253Cbutton%2520type%253D%2522submit%2522%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E"
+            style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+            </iframe>
+        
+        </div>
