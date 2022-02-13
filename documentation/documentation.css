@@ -81,6 +81,10 @@ body{
 }
 .example-outputs{
     background-color: var(--white);  
+    
+}
+.border-radius-right-sm{
+    border-radius: 5px 0px 0px 0px;
 }
 .iframes{
     display: flex;
@@ -94,6 +98,9 @@ body{
 .descreption-text{
     margin: 2rem 5rem;
     text-align: center;
+    line-height: 32px;
 }
-
+.active{
+    font-weight: 900;
+}
 

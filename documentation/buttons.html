@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../component.css">
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Button</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+            <img src="../assets/images/logo1.png" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end">
+                <a link="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a link="github" class="heading-3  margin-8 btn font-color-white">Github</a>
+            </div>
+
+        </div>
+        <!-- Navigation -->
+        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder para4">Getting Started</li>
+                <li class="component"><a href="#">Introduction</a></li>
+                <li class="component"><a href="#">Colors</a></li>
+                <li class="component"><a href="#">Typography</a></li>
+                <li class="component"><a href="#">Utilities</a></li>
+                <hr class="divider">
+                <li class="margin-8 font-weight-bolder para4">Components</li>
+                <li class="component"><a href="alert.html">Alert</a></li>
+                <li class="component"><a href="avtar.html">Avatar</a></li>
+                <li class="component"><a href="badge.html">Badges</a></li>
+                <li class="component"><a href="buttons.html" class="active">Buttons</a></li>
+                <li class="component"><a href="cards.html">Cards</a></li>
+                <li class="component"><a href="headers.html">Headers</a></li>
+                <li class="component"><a href="images.html">Images</a></li>
+                <li class="component"><a href="input.html">Inputs</a></li>
+                <li class="component"><a href="list.html">List</a></li>
+                <li class="component"><a href="modals.html">Modals And SnackBar</a></li>
+                <li class="component"><a href="ratings.html">Ratings</a></li>
+            </ul>
+        </div>
+        <!-- Nav on Page -->
+        <div class="nav-on-page">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder heading4 text-primary">On This Page</li>
+                <li class="component"><a href="#simple-buttons">Primary Buttons</a></li>
+                <li class="component"><a href="#link-buttons">Link Buttons</a></li>
+                <li class="component"><a href="#outline-buttons">Outline Buttons</a></li>
+                <li class="component"><a href="#icon-buttons">Icon Buttons</a></li>
+                <li class="component"><a href="#margin-buttons">Shadow Buttons</a></li>
+                <li class="component"><a href="#action-buttons">Action Buttons</a></li>
+
+            </ul>
+        </div>
+        <!-- MAIN -->
+        <div class="main">
+            <div class="container-main">
+                <div class="heading2 font-weight-bolder text-primary">Buttons</div>
+                <div class="para5 margin-16">
+                    <!-- Intro -->
+                    Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and
+                    make choices, with a single tap.
+                </div>
+                <div class="simple-alerts" id="simple-buttons">
+                    <div class="heading3 margin-8 padding-24 text-secondary">Simple Buttons</div>
+                    <div class="para5 descreption-text">
+                        For Simple Buttons just use btn class and btn keyword followed by the -variant names.</div>
+                    <div class="d-flex-row justify-content-center align-items-center">
+                        <div
+                            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+                            <button class="btn btn-primary">Primary</button>
+                            <button class="btn btn-danger">Danger</button>
+                            <button class="btn btn-success">Success</button>
+                            <button class="btn btn-warning">Warning</button>
+                            <button class="btn btn-info">Info</button>
+                            <button class="btn btn-light">Light</button>
+                            <button class="btn btn-dark">Dark</button>
+                        </div>
+                    </div>
+                </div>
+       
+            <div class="para5 descreption-text">
+                HTML CODE</div>
+            <div class="iframes  border-radius-sm">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-light%2522%253ELight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-dark%2522%253EDark%253C%252Fbutton%253E"
+                    style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                </iframe>
+
+            </div>
+
+
+            <!-- Link Buttons -->
+            <div class="simple-alerts" id="link-buttons">
+                <div class="heading3 margin-8 padding-24 text-secondary">Link Buttons</div>
+                <div class="para5 descreption-text">
+                    For Link Buttons just use btn class and btn keyword followed by the -link.</div>
+                <div class="d-flex-row justify-content-center align-items-center">
+                    <div
+                        class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+                        <a class="btn  btn-link" href="#"> Link </a>
+                        <a class="btn  btn-link btn-info font-color-white" href="#"> Link </a>
+
+                    </div>
+                </div>
+            </div>
+      
+        <div class="para5 descreption-text">
+            HTML CODE</div>
+        <div class="iframes  border-radius-sm">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2520%253Ca%2520class%253D%2522btn%2520%2520btn-link%2522%2520href%253D%2522%2523%2522%253E%2520Link%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520%2520btn-link%2520btn-info%2520font-color-white%2522%2520href%253D%2522%2523%2522%253E%2520Link%2520%253C%252Fa%253E%250A"
+                style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+            </iframe>
+
+        </div>
+        <div class="simple-alerts" id="outline-buttons">
+            <div class="heading3 margin-8 padding-24 text-secondary">Outline Buttons</div>
+            <div class="para5 descreption-text">
+                For outline Buttons just use btn class and btn keyword followed by the -variant-outline names.</div>
+            <div class="d-flex-row justify-content-center align-items-center">
+                <div
+                    class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+                    <button class="btn btn-primary-outline">Primary</button>
+                    <button class="btn btn-danger-outline">Danger</button>
+                    <button class="btn btn-success-outline">Success</button>
+                    <button class="btn btn-warning-outline">Warning</button>
+                    <button class="btn btn-info-outline">Info</button>
+                    <button class="btn btn-light-outline">Light</button>
+                    <button class="btn btn-dark-outline">Dark</button>
+                </div>
+            </div>
+        </div>
+  
+    <div class="para5 descreption-text">
+        HTML CODE</div>
+    <div class="iframes  border-radius-sm">
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-danger-outline%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-success-outline%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-warning-outline%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-info-outline%2522%253EInfo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-light-outline%2522%253ELight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-dark-outline%2522%253EDark%253C%252Fbutton%253E"
+      style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+        </iframe>
+
+    </div>
+
+    <div class="simple-alerts" id="icon-buttons">
+        <div class="heading3 margin-8 padding-24 text-secondary">Icon Buttons</div>
+        <div class="para5 descreption-text">
+            For icon Buttons just use btn , btn-icon and btn keyword followed by the -variant names.</div>
+        <div class="d-flex-row justify-content-center align-items-center">
+            <div
+                class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+                <span class="material-icons heading2 btn btn-icon">
+                    shopping_cart
+                </span>
+                <span class="material-icons heading2 btn btn-icon btn-danger-outline">
+                    favorite
+                </span>
+                <span class="material-icons heading2 btn btn-icon btn-warning">
+                    grade
+                </span>
+        
+        
+            </div>
+        </div>
+    </div>
+
+<div class="para5 descreption-text">
+    HTML CODE</div>
+<div class="iframes  border-radius-sm">
+    <iframe
+    src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2509%253Cspan%2520class%253D%2522material-icons%2520heading2%2520btn%2520btn-icon%2522%253E%2520shopping_cart%2520%253C%252Fspan%253E%250A%2509%253Cspan%2520class%253D%2522material-icons%2520heading2%2520btn%2520btn-icon%2520btn-danger-outline%2522%253Efavorite%253C%252Fspan%253E%250A%2509%253Cspan%2520class%253D%2522material-icons%2520heading2%2520btn%2520btn-icon%2520btn-warning%2522%253Egrade%253C%252Fspan%253E"
+  style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+    </iframe>
+
+</div>
+<div class="simple-alerts" id="margin-buttons">
+    <div class="heading3 margin-8 padding-24 text-secondary">Button with shadow and margins</div>
+    <div class="para5 descreption-text">
+        For button shadows we have two classes btn-margin-blur and btn-margin.</div>
+    <div class="d-flex-row justify-content-center align-items-center">
+        <div
+            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+            <div class="btn btn-margin-blur btn-success">Sucessfull</div>
+            <div class="btn btn-margin btn-danger">Danger Here!</div>    
+        </div>
+    </div>
+</div>
+
+<div class="para5 descreption-text">
+HTML CODE</div>
+<div class="iframes  border-radius-sm">
+<iframe
+src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2520btn-margin-blur%2520btn-success%2522%253ESucessfull%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2520btn-margin%2520btn-danger%2522%253EDanger%2520Here%21%253C%252Fdiv%253E%2520%2520%2520%2520"
+style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+</iframe>
+
+</div>
+
+<div class="simple-alerts" id="action-buttons">
+    <div class="heading3 margin-8 padding-24 text-secondary">Action Buttons</div>
+    <div class="para5 descreption-text">
+        Action buttons are required for highlighting buttons that have an important action.</div>
+    <div class="d-flex-row justify-content-center align-items-center">
+        <div
+            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+            <div class="position-relative d-flex justify-content-center align-items-center ">
+                <img src="../assets/images/avtar2.jpg" alt="avtar" class="avtar">
+                <i class="material-icons border-radius-lg position-absolute badge-action-button ">add</i>
+            </div>
+    
+            <i class="material-icons btn btn-icon btn-success">add</i>
+            <i class="material-icons btn btn-icon btn-primary-outline">arrow_upward</i>
+            </div>
+    </div>
+</div>
+
+<div class="para5 descreption-text">
+HTML CODE</div>
+<div class="iframes  border-radius-sm">
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2509%2509%253Cdiv%2520class%253D%2522position-relative%2520d-flex%2520justify-content-center%2520align-items-center%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fimages%252Favtar2.jpg%2522%2520alt%253D%2522avtar%2522%2520class%253D%2522avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520border-radius-lg%2520position-absolute%2520badge-action-button%2520%2509%2509%2509%2522%253Eadd%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522material-icons%2520btn%2520btn-icon%2520btn-success%2522%253Eadd%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520btn%2520btn-icon%2520btn-primary-outline%2522%253Earrow_upward%253C%252Fi%253E"
+style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+</iframe>
+
+</div>
