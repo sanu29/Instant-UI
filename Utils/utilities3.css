@@ -30,6 +30,7 @@
 
 .border-color-primary   {       border-color: var(--primary);     }
 .border-color-danger    {       border-color: var(--danger);      }
+.border-color-success    {       border-color: var(--success);      }
 .border-color-warning   {       border-color: var(--warning);     }
 .border-color-info      {       border-color: var(--info);        }
 .border-color-secondary {       border-color: var(--secondary);   }

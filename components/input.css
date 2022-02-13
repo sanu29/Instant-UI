@@ -49,8 +49,8 @@ input::placeholder{
     height: 1rem;
     margin: 5px;
 }
-label{
-    margin: 5px;
+.label{
+    margin: 1rem 0 3px 0;
     margin-right:1rem;
 }
 .input-radio
