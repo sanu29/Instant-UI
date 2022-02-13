@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../component.css">
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Cards</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+            <img src="../assets/images/logo1.png" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end">
+                <a link="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a link="github" class="heading-3  margin-8 btn font-color-white">Github</a>
+            </div>
+
+        </div>
+        <!-- Navigation -->
+        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder para4">Getting Started</li>
+                <li class="component"><a href="#">Introduction</a></li>
+                <li class="component"><a href="#">Colors</a></li>
+                <li class="component"><a href="#">Typography</a></li>
+                <li class="component"><a href="#">Utilities</a></li>
+                <hr class="divider">
+                <li class="margin-8 font-weight-bolder para4">Components</li>
+                <li class="component"><a href="alert.html">Alert</a></li>
+                <li class="component"><a href="avtar.html">Avatar</a></li>
+                <li class="component"><a href="badge.html">Badges</a></li>
+                <li class="component"><a href="buttons.html">Buttons</a></li>
+                <li class="component"><a href="cards.html" class="active">Cards</a></li>
+                <li class="component"><a href="headers.html">Headers</a></li>
+                <li class="component"><a href="images.html">Images</a></li>
+                <li class="component"><a href="input.html">Inputs</a></li>
+                <li class="component"><a href="list.html">List</a></li>
+                <li class="component"><a href="modals.html">Modals And SnackBar</a></li>
+                <li class="component"><a href="ratings.html">Ratings</a></li>
+            </ul>
+        </div>
+        <!-- Nav on Page -->
+        <div class="nav-on-page">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder heading4 text-primary">On This Page</li>
+                <li class="component"><a href="#simple">Simple Card</a></li>
+                <li class="component"><a href="#badge">Card with Badges</a></li>
+                <li class="component"><a href="#icon">Card with Icon</a></li>
+
+                <li class="component"><a href="#card-dismiss">Card with dismiss</a></li>
+                <li class="component"><a href="#overlay">Cards with overlay</a></li>
+                <li class="component"><a href="#text">Textonly Cards</a></li>
+                <li class="component"><a href="#horizontal">Horizontal Cards</a></li>
+                <li class="component"><a href="#shadow">Cards with Shadow</a></li>
+
+            </ul>
+        </div>
+        <!-- MAIN -->
+        <div class="main">
+            <div class="container-main">
+                <div class="heading2 font-weight-bolder text-primary">Cards</div>
+                <div class="para5 margin-16">
+                    <!-- Intro -->
+                    Card is a UI component that contains content and actions about a single subject.
+                    A card can contain several different elements,
+                    but they all should be about a single subject.
+                </div>
+                <div class="simple-alerts" id="simple">
+                    <div class="heading3 margin-8 padding-24 text-secondary">Simple Cards</div>
+                    <div class="d-flex-row justify-content-center align-items-center">
+                        <div>
+                            <div class="card border-radius-sm">
+                                <img class="card-img-main border-radius-sm " src="../assets/images/card.jpg"
+                                    alt="jacket">
+
+                                <div class="card-primary">
+                                    <div class="card-subtitle">Mens Premium Jacket</div>
+                                    <h2 class="card-title"><span class="text-muted">₹</span>2000</h2>
+                                </div>
+                                <div class="card-action">
+                                    <div class="btn btn-primary w-100 margin-none text-align-center">
+                                        Go to Cart</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="para5 descreption-text">
+                        HTML CODE</div>
+                    <div class="iframes  border-radius-sm">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520border-radius-sm%2522%253E%250A%253Cimg%2520class%253D%2522card-img-main%2520border-radius-sm%2520%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522jacket%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-subtitle%2522%253EMens%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253E%253Cspan%2520class%253D%2522text-muted%2522%253E%25E2%2582%25B9%253C%252Fspan%253E2000%253C%252Fh2%253E%250A%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522btn%2520btn-primary%2520w-100%2520margin-none%2520text-align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509Go%2520to%2520Cart%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                        </iframe>
+
+                    </div>
+                    <!-- Card with Badges -->
+                    <div class="simple-alerts" id="badge">
+                        <div class="heading3 margin-8 padding-24 text-secondary">Cards With Badges</div>
+                        <div class="d-flex-row justify-content-center align-items-center">
+                            <div>
+                                <div class="card border-radius-sm">
+                                    <div class="position-relative">
+                                        <img class="card-img-main border-radius-sm" src="../assets/images/card.jpg"
+                                            alt="jacket">
+                                        <div
+                                            class="position-absolute border-radius-sm card-badge badge badge-success  margin-none">
+                                            Certified</div>
+                                    </div>
+                                    <div class="card-primary">
+                                        <div class="card-subtitle">Mens Premium Jacket</div>
+                                        <h2 class="card-title"><span class="text-muted">₹</span>2000</h2>
+                                    </div>
+                                    <div class="card-action">
+                                        <div
+                                            class="btn border-radius-sm btn-primary w-100 margin-none text-align-center">
+                                            Go to Cart </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="para5 descreption-text">
+                            HTML CODE</div>
+                        <div class="iframes  border-radius-sm">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520border-radius-sm%2522%253E%250A%2509%253Cdiv%2520class%253D%2522position-relative%2522%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522card-img-main%2520border-radius-sm%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard.jpg%2522%2520%2509%2509%2509%2509%2509%2509alt%253D%2522jacket%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522position-absolute%2520border-radius-sm%2520card-badge%2520badge%2520badge-success%2520%2520%2509%2509%2509%2509%2509margin-none%2522%253ECertified%253C%252Fdiv%253E%250A%2509%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-subtitle%2522%253EMens%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253E%253Cspan%2520class%253D%2522text-muted%2522%253E%25E2%2582%25B9%253C%252Fspan%253E2000%253C%252Fh2%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522btn%2520border-radius-sm%2520btn-primary%2520w-100%2520margin-none%2520text-align-center%2522%253E%2520%2509%2509%2509%2509Go%2520to%2520Cart%2520%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                            </iframe>
+
+                        </div>
+                        <div class="simple-alerts" id="icon">
+                            <div class="heading3 margin-8 padding-24 text-secondary">Cards With Icons</div>
+                            <div class="d-flex-row justify-content-center align-items-center">
+                                <div>
+                                    <div class="card border-radius-sm">
+                                        <div class="position-relative">
+                                            <img class="card-img-main border-radius-sm" src="../assets/images/card.jpg"
+                                                alt="jacket">
+                                            <i
+                                                class="material-icons btn btn-icon  position-absolute card-icon-dismiss btn-danger-outline">favorite</i>
+
+                                        </div>
+                                        <div class="card-primary">
+                                            <div class="card-subtitle">Mens Premium Jacket</div>
+                                            <h2 class="card-title"><span class="text-muted">₹</span>2000</h2>
+                                        </div>
+                                        <div class="card-action">
+                                            <div
+                                                class="btn border-radius-sm btn-primary w-100 margin-none text-align-center">
+                                                Go to Cart </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="para5 descreption-text">
+                                HTML CODE</div>
+                            <div class="iframes  border-radius-sm">
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520border-radius-sm%2522%253E%250A%2509%253Cdiv%2520class%253D%2522position-relative%2522%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522card-img-main%2520border-radius-sm%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard.jpg%2522%2520%2509%2509%2509%2509%2509%2509alt%253D%2522jacket%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520btn%2520btn-icon%2520%2520position-absolute%2520card-icon-dismiss%2520btn-%2509%2509%2509%2509%2509danger-outline%2522%253Efavorite%253C%252Fi%253E%250A%250A%2509%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-subtitle%2522%253EMens%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253E%253Cspan%2520class%253D%2522text-muted%2522%253E%25E2%2582%25B9%253C%252Fspan%253E2000%253C%252Fh2%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522btn%2520border-radius-sm%2520btn-primary%2520w-100%2520margin-none%2520text-align-center%2522%253E%2520%2509%2509%2509%2509Go%2520to%2520Cart%2520%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                    style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                                </iframe>
+
+                            </div>
+                            <!-- dismiss -->
+                            <div class="simple-alerts" id="card-dismiss">
+                                <div class="heading3 margin-8 padding-24 text-secondary">Cards With Dismiss</div>
+                                <div class="d-flex-row justify-content-center align-items-center">
+                                    <div>
+                                        <div class="cards-list" id="dismiss-card">
+                                            <div class="card border-radius-sm">
+                                                <div class="position-relative">
+                                                    <img class="card-img-main border-radius-sm"
+                                                        src="../assets/images/card.jpg" alt="jacket">
+                                                    <i class="material-icons btn btn-icon  position-absolute card-icon-dismiss"
+                                                        id="dismiss-card-btn">close</i>
+                                                </div>
+                                                <div class="card-primary">
+                                                    <div class="card-subtitle">Mens Premium Jacket</div>
+                                                    <h2 class="card-title"><span class="text-muted">₹</span>2000</h2>
+                                                </div>
+                                                <div class="card-action">
+                                                    <div class="btn btn-primary w-100 margin-none text-align-center">Go
+                                                        to Cart</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="para5 descreption-text">
+                                    HTML CODE</div>
+                                <div class="iframes  border-radius-sm">
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522cards-list%2522%2520id%253D%2522alert-dismiss%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2520border-radius-sm%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522position-relative%2522%253E%250A%2509%2509%2509%253Cimg%2520class%253D%2522card-img-main%2520border-radius-sm%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard.jpg%2522%2520%2509%2509%2509%2509%2509%2509%2509alt%253D%2522jacket%2522%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522material-icons%2520btn%2520btn-icon%2520%2520position-absolute%2520card-icon-dismiss%2522%2520%2509%2509%2509%2509%2509%2509id%253D%2522dismiss%2522%253Eclose%253C%252Fi%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-subtitle%2522%253EMens%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%2509%2509%2509%253Ch2%2520class%253D%2522card-title%2522%253E%253Cspan%2520class%253D%2522text-muted%2522%253E%25E2%2582%25B9%253C%252Fspan%253E2000%253C%252Fh2%253E%2520%2520%2520%2520%2520%2520%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2509%2509%2509%253Cdiv%2520class%253D%2522btn%2520btn-primary%2520w-100%2520margin-none%2520text-align-center%2522%253EGo%2520to%2520%2509%2509%2509%2509%2509%2509Cart%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2509%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                        style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                                    </iframe>
+
+                                </div>
+                                <div class="para5 descreption-text">
+                                    JAVASCRIPT CODE</div>
+                                <div class="iframes  border-radius-sm">
+                                    <iframe
+                                      src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=document.querySelector%28%2522%2523dismiss-card-btn%2522%29.addEventListener%28%2522click%2522%252C%28%29%253D%253E%257B%250A%2520%2520%2520%2520const%2520cardDismis%2520%253D%2520document.getElementById%28%2522dismiss-card%2522%29%250A%2520%2520%2520%2520cardDismis.style.display%253D%2522none%2522%253B%250A%2520%257D%29%250A%2520"
+                                      style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                                    </iframe>
+
+                                </div>
+
+
+                                <div class="simple-alerts" id="overlay">
+                                    <div class="heading3 margin-8 padding-24 text-secondary">Cards With Overlay</div>
+                                    <div class="d-flex-row justify-content-center align-items-center">
+                                        <div>
+                                            <div class="cards-list  position-relative" id="alert-dismiss">
+                                                <div class="card border-radius-sm opacity-50 overlay-card">
+                                                    <div class="position-relative">
+                                                        <img class="card-img-main border-radius-sm " src="../assets/images/card.jpg" alt="jacket">
+                                                    </div>
+                                                    <div class="card-primary">
+                                                        <div class="card-subtitle">Mens Premium Jacket</div>
+                                                        <h2 class="card-title"><span class="text-muted">₹</span>2000</h2>  
+                                                    </div>
+                                                    <div class="card-action">
+                                                            <div class="btn btn-primary w-100 margin-none  text-align-center">Go to Cart</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-text-overlay heading2 position-absolute">Sold Out</div>
+                                                  
+                                          
+                                                </div>
+                                      
+                                            </div>
+                                        </div>
+        
+                                    </div>
+        
+        
+        
+                                    <div class="para5 descreption-text">
+                                        HTML CODE</div>
+                                    <div class="iframes  border-radius-sm">
+                                        <iframe src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522cards-list%2520%2520position-relative%2522%2520id%253D%2522alert-dismiss%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2520opacity-50%2520overlay-card%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522position-relative%2522%253E%250A%2509%2509%2509%253Cimg%2520class%253D%2522card-img-main%2520%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522jacket%2522%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-subtitle%2522%253EMens%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%2509%2509%2509%253Ch2%2520class%253D%2522card-title%2522%253E%253Cspan%2520class%253D%2522text-muted%2522%253E%25E2%2582%25B9%253C%252Fspan%253E2000%253C%252Fh2%253E%2520%2520%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522btn%2520btn-primary%2520w-100%2520margin-none%2520border-radius-none%2520text-align-%2509%2509%2509%2509%2509%2509center%2522%253EGo%2520to%2520Cart%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-text-overlay%2520heading2%2520position-absolute%2522%253ESold%2520Out%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                           style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                                        </iframe>
+        
+                                    </div>
+
+
+                                    <div class="simple-alerts" id="text">
+                                        <div class="heading3 margin-8 padding-24 text-secondary"> Textonly Cards</div>
+                                        <div class="d-flex-row justify-content-center align-items-center">
+                                       
+                                                <div class="cards-list w-50">
+                                                    <div class="card border-radius-sm">
+                                                        <div class="card-primary">
+                                                            <h2 class="card-title">Leather Jackets </h2>      
+                            
+                                                            <div class="card-subtitle para6">Leather jackets for men (and women) got their start in the early 1900’s
+                                                                 when aviators and military men began wearing brown leather flight jackets, which would 
+                                                                 later become known as bomber jackets. These insulated jackets were designed to keep the
+                                                                  pilots warm while they flew at high altitude. 
+                                                        </div>
+                                                        </div>
+                                                        <div class="card-action">
+                                                                <div class="btn btn-primary w-100 margin-none text-align-center">Check out some new cards</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                           
+            
+                                        </div>
+            
+            
+            
+                                        <div class="para5 descreption-text">
+                                            HTML CODE</div>
+                                        <div class="iframes  border-radius-sm">
+                                            <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522cards-list%2520w-50%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2520border-radius-sm%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2509%2509%2509%253Ch2%2520class%253D%2522card-title%2522%253ELeather%2520Jackets%2520%253C%252Fh2%253E%2520%2520%2520%2520%2520%2520%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-subtitle%2520para6%2522%253E%250A%2509%2509%2509%2509Leather%2520jackets%2520for%2520men%2520%28and%2520women%29%2520got%2520their%2520start%2520in%2520the%2520early%25201900%25E2%2580%2599s%2520%2509%2509%2509%2509when%2520%2520aviators%2520and%2520military%2520men%2520began%2520wearing%2520brown%2520leather%2520flight%2520%2509%2509%2509%2509%2509%2509jackets%252C%2520which%2520would%2520later%2520become%2520known%2520as%2520bomber%2520jackets.%2520These%2520insulated%2520%2509%2509%2509%2509%2509jackets%2520were%2520designed%2520to%2520keep%2520the%2520pilots%2520warm%2520while%2520they%2520flew%2520at%2520high%2520%2509%2509%2509%2509%2509%2520altitude.%2520%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522btn%2520btn-primary%2520w-100%2520margin-none%2520text-align-center%2522%253E%250A%2509%2509%2509Check%2520out%2520some%2520new%2520cards%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                             style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                                sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                                            </iframe>
+            
+                                        </div>
+    
+                                        <div class="simple-alerts" id="horizontal">
+                                            <div class="heading3  margin-8 padding-24 text-secondary">Horizontal Cards</div>
+                                            <div class="d-flex-row justify-content-center align-items-center">
+                                           
+                                                <div class="card border-radius-sm d-flex-row position-relative" >          
+                                                    <img class="card-img-horizontal border-radius-sm" src="../assets/images/card.jpg" alt="jacket">
+                                                    
+                                                    <div class="card-primary w-100">
+                                                        <div class="card-subtitle">Mens Premium Jacket</div>
+                                                        <i class="material-icons btn btn-icon  position-absolute card-icon-dismiss btn-danger-outline">favorite</i>
+                                                
+                                                        <div class="card-action">
+                                                            <div class="btn btn-primary  margin-none text-align-center w-100"> Click here to view more </div>
+                                                        </div>    
+                                                    </div>
+                                                    
+                                                    </div>
+                                                    </div>
+                                               
+                
+                                            </div>
+                
+                
+                
+                                            <div class="para5 descreption-text">
+                                                HTML CODE</div>
+                                            <div class="iframes  border-radius-sm">
+                                                <iframe
+                                                src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520d-flex-row%2520position-relative%2522%2520%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cimg%2520class%253D%2522card-img-horizontal%2520%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522jacket%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-primary%2520w-100%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-subtitle%2522%253EMens%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%2509%253Ci%2520class%253D%2522material-icons%2520btn%2520btn-icon%2520%2520position-absolute%2520card-icon-dismiss%2520btn-danger-%2509%2509%2509outline%2522%253Efavorite%253C%252Fi%253E%250A%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522btn%2520btn-primary%2520%2520margin-none%2520border-radius-none%2520text-align-center%2520w-%2509%2509%2509100%2522%253EClick%2520here%2520to%2520view%2520more%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                                     style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                                    sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                                                </iframe>
+                
+                                            </div>
+        
+                                            <div class="simple-alerts" id="shadow">
+                                                <div class="heading3  margin-8 padding-24 text-secondary">Cards With Shadow</div>
+                                                <div class="d-flex-row justify-content-center align-items-center">
+                                               
+                                                    <div class="cards-list">
+                                                        <div class="card border-radius-sm box-shadow-deep">
+                                                            <div class="position-relative">
+                                                                <img class="card-img-main border-radius-sm " src="../assets/images/card.jpg" alt="jacket">
+                                                    <div class="position-absolute card-badge badge badge-success border-radius-none margin-none border-radius-right-sm">25% Off</div>
+                                                                
+                                                                <i class="material-icons btn btn-icon  position-absolute card-icon-dismiss btn-danger-outline">favorite</i>
+                                                            </div>
+                                                            <div class="card-primary">
+                                                                <div class="card-subtitle">Mens Premium Jacket</div>
+                                                                <h2 class="card-title "><span class=" text-muted text-strike heading4 ">₹ 2000</span>
+                                                                <span class="card-title ">₹ 1500</span></h2>   
+                                                            </div>
+                                                            <div class="card-action">
+                                                                    <div class="btn btn-primary w-100 margin-none  text-align-center">Go to Cart</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                        </div>
+                                                   
+                    
+                                                </div>
+                    
+                    
+                    
+                                                <div class="para5 descreption-text">
+                                                    HTML CODE</div>
+                                                <div class="iframes  border-radius-sm">
+                                                    <iframe
+                                                    src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520d-flex-row%2520position-relative%2522%2520%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Cimg%2520class%253D%2522card-img-horizontal%2520%2522%2520src%253D%2522..%252Fassets%252Fimages%252Fcard.jpg%2522%2520alt%253D%2522jacket%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-primary%2520w-100%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-subtitle%2522%253EMens%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%2509%253Ci%2520class%253D%2522material-icons%2520btn%2520btn-icon%2520%2520position-absolute%2520card-icon-dismiss%2520btn-danger-%2509%2509%2509outline%2522%253Efavorite%253C%252Fi%253E%250A%2509%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522btn%2520btn-primary%2520%2520margin-none%2520border-radius-none%2520text-align-center%2520w-%2509%2509%2509100%2522%253EClick%2520here%2520to%2520view%2520more%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                                         style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                                        sandbox="allow-scripts allow-same-origin" class="border-radius-sm">
+                                                    </iframe>
+                    
+                                                </div>
+
+                                <script src="../component-js/card.js"></script>
