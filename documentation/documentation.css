@@ -1,0 +1,99 @@
+body{
+    background-color: var(--light);
+}
+.header{
+    grid-area: header;
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.footer{
+    grid-area: footer;
+}
+.main{
+    grid-area: main;
+    margin: 6rem 15rem 2rem 19rem ;
+}
+.nav{
+    grid-area: nav;
+    width: 17rem;
+    padding-left: 2rem;
+    background-color: var(--secondary-nav-color);
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 4rem;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 999;
+}
+.nav-on-page{
+    grid-area: nav-on-page;
+    width: 10rem;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    position: fixed;
+    right: 5rem;
+    top: 5rem;
+    z-index: 999;
+}
+.container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: auto 1fr 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header header header header"
+    "nav main main nav-on-page"
+    "nav footer footer nav-on-page";
+}
+.header{
+    width: 100%;
+    color: var(--secondary-nav-color);
+    height: 4rem;
+}
+.logo{
+    color: var(--secondary-two-color);
+    height:4rem;
+    margin: 0 1rem ;
+    padding: 0.5rem 0;
+}
+.component-list{
+    padding-top: 3rem;
+    list-style: none;
+}
+.component{
+    cursor: pointer;
+    padding: 0.5rem;
+}
+.component:hover{
+    color: var(--secondary-one-color);
+    font-weight: 800;
+}
+.divider{
+    margin: 1rem 0;
+    width: 100%;
+    height: 1px;
+    color: var(--gray);
+
+}
+.example-outputs{
+    background-color: var(--white);  
+}
+.iframes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:  3rem 0rem;
+    border: solid 1px var(--light-gray);
+    overflow:hidden  
+}
+.descreption-text{
+    margin: 2rem 5rem;
+    text-align: center;
+}
+
+
