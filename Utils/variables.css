@@ -5,13 +5,13 @@
 
      --primary-color       : #04566E ;
      --secondary-one-color : #339EA0;
-     --secondary-two-color : rgb(252, 243, 136);
+     --secondary-two-color : #E9E786;
      --secondary-nav-color : #f2f4f6;
 
 
     /* **************** Color ******************* */
 
-     --primary          :    rgb(34,66,152);
+     --primary          :    #224298;
      --success          :    #127044;
      --info             :    #0c98b4;
      --warning          :    #FEA219;
@@ -25,13 +25,13 @@
      --active-hover     :    #058ce0;
     /* **************** Background Color ******************* */
 
-     --primary-bg  : rgb(207,226,255);
-     --success-bg  : rgb(209,231,221);
-     --info-bg     : rgb(154, 223, 236);
-     --warning-bg  : rgb(255,243,205);
-     --danger-bg   : rgb(248,215,218);
-     --light-bg    : rgb(43, 44, 44);
-     --dark-bg     : #D3D3D4;
+     --primary-bg  : #CFE2FF;
+     --success-bg  : #D1E7DD;
+     --info-bg     : #9ADFEC;
+     --warning-bg  : #FFF3CD;
+     --danger-bg   : #F8D7DA;
+     --light-bg    : #2B2C2C;
+     --dark-bg     : #d3d3d4;
 
     /* **************** Text Color ******************* */
 
