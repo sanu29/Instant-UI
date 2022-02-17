@@ -43,12 +43,16 @@
 .bg-white       {    background-color: #fff;              }
 .bg-primary     {    background-color: var(--primary);      }
 .bg-secondary   {    background-color: var(--secondary);    }
+.bg-success     {    background-color: var(--success);      }
+.bg-gray        {    background-color: var(--gray);   }
+.bg-dark-gray        {    background-color: var(--gray-dark);   }
+.bg-light-gray        {    background-color: var(--light-gray);   }
 .bg-danger      {    background-color: var(--danger);       }
 .bg-info        {    background-color: var(--info);         }
 .bg-warning     {    background-color: var(--warning);      }
 .bg-light       {    background-color: var(--light);        }
 .bg-dark        {    background-color: var(--dark);         }
-
+.bg-black     {    background-color: var(--black-light);   }
 /* Text colors */
 
 

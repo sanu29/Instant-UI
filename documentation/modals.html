@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../component.css">
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Modal And Toast</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+              <img src="../assets/images/logo.svg" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end">
+                <a link="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a link="github" class="heading-3  margin-8 btn font-color-white">Github</a>
+            </div>
+
+        </div>
+        <!-- Navigation -->
+        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder para4">Getting Started</li>
+                <li class="component"><a href="intro.html">Introduction</a>
+                 <li class="component"><a href="color.html">Colors</a></li>
+                <li class="component"><a href="typo.html">Typography</a></li>
+                <li class="component"><a href="utilities.html">Utilities</a></li>
+                <hr class="divider">
+                <li class="margin-8 font-weight-bolder para4">Components</li>
+                <li class="component"><a href="alert.html">Alert</a></li>
+                <li class="component"><a href="avtar.html">Avatar</a></li>
+                <li class="component"><a href="badge.html">Badges</a></li>
+                <li class="component"><a href="buttons.html">Buttons</a></li>
+                <li class="component"><a href="cards.html">Cards</a></li>
+                <li class="component"><a href="grid.html">Grid</a></li>
+                <li class="component"><a href="headers.html">Headers</a></li>
+                <li class="component"><a href="images.html">Images</a></li>
+                <li class="component"><a href="input.html">Inputs</a></li>
+                <li class="component"><a href="list.html">List</a></li>
+                <li class="component"><a href="modals.html" class="active">Modals And Rating</a></li>
+                <li class="component"><a href="toast.html">Toast</a></li>
+            </ul>
+        </div>
+        <!-- Nav on Page -->
+        <div class="nav-on-page">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder heading4 text-primary">On This Page</li>
+                <li class="component"><a href="#modal">Modals</a></li>
+                <li class="component"><a href="#rating">Rating</a></li>
+            </ul>
+        </div>
+        <!-- MAIN -->
+        <div class="main">
+            <div class="container-main">
+                <div class="heading2 font-weight-bolder text-primary">Modals And Rating</div>
+                <div class="para5 margin-16">
+                    <!-- Intro -->
+                    Modals are the key to turning leads into conversions. The key is not to overdo and fill your
+                     webpage with them, and design them effectively so the user can feel like they are part of
+                      the main page while addressing the important message they have to read in the newer smaller window.
+                    <p class="margin-16"></p>The fact that you provide ratings on your site creates trust and 
+                    benefits you as web master, even if you get negative feedback. 
+                </div>
+
+
+                <div class="simple-badges" id="modals">
+                    <div class="heading3 margin-8 padding-24 text-secondary">Modal</div>
+                    <div class="para5 descreption-text">
+                        For Modal, you can use the classes modal, modal-content, modal-text in below format.
+                        <div class="d-flex-row justify-content-center align-items-center">
+                            <div
+                                class="example-output margin-16 padding-16 border-1 border-color-gray w-75 d-flex justify-content-center align-items-center border-radius-sm">
+
+                                <button class="btn btn-primary " id="modal-btn">Click here for modal</button>
+                                <div class="modal">
+                                  <div class="modal-content" id="modal">
+                                    <div class="text-align-center heading3 padding-24">MODALS</div>
+                                    <div class="text-align-center  modal-text"> 
+                                        Absolutely! Modals are the key to turning leads into conversions.
+                                         The key is not to overdo and fill your webpage with them, and design them 
+                                         effectively so the user can feel like they are part of the main page while
+                                          addressing the important message they have to read in the newer smaller window. 
+                                          There are numerous courses to become a web developer
+                                         available which help an individual become the expert at creating modal windows. Get creating!
+                                    </div>
+                                    <button class="margin-8 btn btn-primary d-inline ">Action </button>
+                                    <button class="margin-8 btn btn-link d-inline" id="close">Close </button>
+                                  </div>
+                              
+                            </div>
+                        </div>
+                    </div></div>
+                    <div class="para5 descreption-text">
+                        HTML CODE</div>
+                    <div class="iframes  border-radius-sm margin-24">
+                        <iframe
+                          src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520%2522%2520id%253D%2522modal-btn%2522%253E%250A%2509Click%2520here%2520for%2520modal%250A%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2509%253Cdiv%2520class%253D%2522modal-content%2522%2520id%253D%2522modal%2522%253E%250A%2509%253Cdiv%2520class%253D%2522text-align-center%2520heading3%2520padding-24%2522%253E%250A%2520%2520%2520%2520%2509%2509MODALS%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522text-align-center%2520%2520modal-text%2522%253E%2520%250A%2509%2509Absolutely%21%2520Modals%2520are%2520the%2520key%2520to%2520turning%2520leads%2520into%2520conversions.%250A%2509%2509The%2520key%2520is%2520not%2520to%2520overdo%2520and%2520fill%2520your%2520webpage%2520with%2520them%252C%2520and%2520design%2520them%2520%250A%2509%2509effectively%2520so%2520the%2520user%2520can%2520feel%2520like%2520they%2520are%2520part%2520of%2520the%2520main%2520page%2520while%250A%2509%2509addressing%2520the%2520important%2520message%2520they%2520have%2520to%2520read%2520in%2520the%2520newer%2520smaller%2520window.%2520%250A%2509%2509There%2520are%2520numerous%2520courses%2520to%2520become%2520a%2520web%2520developer%250A%2509%2509available%2520which%2520help%2520an%2520individual%2520become%2520the%2520expert%2520at%2520creating%2520modal%2520windows.%2520%2509%2509Get%2520creating%21%250A%2509%253C%252Fdiv%253E%250A%2509%253Cbutton%2520class%253D%2522margin-8%2520btn%2520btn-primary%2520d-inline%2520%2522%253EAction%2520%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522margin-8%2520btn%2520btn-link%2520d-inline%2522%2520id%253D%2522close%2522%253EClose%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
+                        </iframe>
+
+                    </div>
+                    <div class="para5 descreption-text">
+                        JAVASCRIPT CODE</div>
+                    <div class="iframes  border-radius-sm margin-24">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=const%2520modal%2520%253D%2520document.querySelector%28%2522.modal%2522%29%250Adocument.querySelector%28%2522%2523modal-btn%2522%29.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520modal.style.display%2520%253D%2520%27block%27%253B%250A%257D%29%250Aconst%2520close%2520%253D%2520document.querySelector%28%2522%2523close%2522%29%250Aclose.addEventListener%28%2522click%2522%252C%28%29%253D%253E%257B%250A%2520%2520%2520%2520modal.style.display%253D%27none%27%253B%250A%257D%29%250Awindow.onclick%2520%253D%2520function%2520%28event%29%2520%257B%250A%2520%2520if%2520%28event.target%2520%253D%253D%2520modal%29%2520%257B%250A%2520%2520%2520%2520modal.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%250A%257D"
+                            style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
+                        </iframe>
+
+                    </div>
+                    <div class="simple-badges" id="rating">
+                        <div class="heading3 margin-8 padding-24 text-secondary">Rating</div>
+                      
+                            <div class="d-flex-row justify-content-center align-items-center">
+                                <div
+                                    class="example-output margin-16 padding-16 border-1 border-color-gray w-75 d-flex justify-content-center align-items-center border-radius-sm">
+                                    <div class="rating">
+                                        <i class="material-icons star" id="star-1" >star</i>
+                                        <i class="material-icons star" id="star-2">star</i>
+                                        <i class="material-icons star" id="star-3">star</i>
+                                        <i class="material-icons star" id="star-4">star_outline</i>
+                                        <i class="material-icons star" id="star-5">star_outline</i>                                 
+                                    </div>
+                            </div>
+                        </div></div>
+                        <div class="para5 descreption-text">
+                            HTML CODE</div>
+                        <div class="iframes  border-radius-sm margin-24">
+                            <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star-1%2522%2520%253Estar%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star-2%2522%253Estar%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star-3%2522%253Estar%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star-4%2522%253Estar_outline%253C%252Fi%253E%250A%2509%2509%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star-5%2522%253Estar_outline%253C%252Fi%253E%250A%2509%253C%252Fdiv%253E"                               style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
+                            </iframe>
+    
+                        </div>
+
+                    <script src="../component-js/modal.js"></script>

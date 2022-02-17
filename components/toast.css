@@ -1,0 +1,24 @@
+.toast{
+    display: flex;
+    flex-direction: row;
+   background-color: var(--dark);
+   max-width: 35rem;
+   padding: 1rem;
+   color: var(--white);
+   border-radius: 5px;
+   justify-content: space-between;
+   margin: 1rem;
+   position: absolute;
+   top: 1px;
+   right: 1px;
+   align-content: center;
+   z-index: 1000;
+   position: fixed;
+   font-size: 0.8rem;
+}
+.toast-txt{
+   align-self: center;
+   padding: 1rem;
+   font-weight: 500;
+   margin:0 1rem ;
+}

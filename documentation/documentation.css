@@ -15,18 +15,20 @@ body{
     grid-area: main;
     margin: 6rem 15rem 2rem 19rem ;
 }
+
 .nav{
     grid-area: nav;
     width: 17rem;
     padding-left: 2rem;
     background-color: var(--secondary-nav-color);
     font-size: 0.9rem;
+    display: block;
     font-family: 'Inter', sans-serif;
     position: fixed;
     left: 0;
     top: 4rem;
-    height: 100%;
-    overflow-y: scroll;
+    height: calc(100vh - 60px);
+    overflow: auto;
     z-index: 999;
 }
 .nav-on-page{
@@ -57,16 +59,19 @@ body{
 .logo{
     color: var(--secondary-two-color);
     height:4rem;
-    margin: 0 1rem ;
-    padding: 0.5rem 0;
+    margin:0 1rem  ;
+    padding: 0.8rem 0;
 }
 .component-list{
-    padding-top: 3rem;
+    padding-top: 1rem;
     list-style: none;
+    padding-bottom: 2rem;
 }
 .component{
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.8rem;
+    margin: none;
+    
 }
 .component:hover{
     color: var(--secondary-one-color);
@@ -103,4 +108,23 @@ body{
 .active{
     font-weight: 900;
 }
-
+.color-block{
+    width: 8rem;
+    height: 8rem;
+    padding: 0.8rem;
+    
+    font-family: 'Inter', sans-serif;
+}
+.color-main-block{
+    margin: 3rem 1rem;
+    padding: 0;
+    overflow: hidden;
+    text-transform: lowercase;
+}
+.color-sub-block{
+    width: 100%;
+    height: 5rem;
+    padding: 0.8rem;
+    
+    font-family: 'Inter', sans-serif;
+}
