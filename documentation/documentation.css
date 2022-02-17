@@ -128,3 +128,9 @@ body{
     
     font-family: 'Inter', sans-serif;
 }
+
+.custom{
+    background-color: brown; 
+    color: black; 
+    border: solid 2px black;
+}
