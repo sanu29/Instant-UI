@@ -25,9 +25,10 @@ body{
     position: fixed;
     left: 0;
     top: 4rem;
-    height: 100%;
+    height: 90%;
     overflow-y: scroll;
     z-index: 999;
+    padding-bottom: 5rem;
 }
 .nav-on-page{
     grid-area: nav-on-page;
@@ -102,5 +103,24 @@ body{
 }
 .active{
     font-weight: 900;
+} 
+
+@media screen and (max-width:1012px){
+    .nav-on-page{
+        width: 7rem;
+        right: 1px;
+
+     
+    }
 }
 
+@media screen and (max-width:850px){
+    .nav-on-page{
+        display: none;
+     
+    }
+
+    .main{
+        margin: 6rem 1rem 2rem 19rem ;
+    }
+}
