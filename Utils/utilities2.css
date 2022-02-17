@@ -43,7 +43,7 @@
 
 /* Grid */
 
-.grid-two-items     { display: grid;    grid-template-columns: auto auto;      }
+.grid-two-items     { display: grid;    grid-template-columns: auto auto; }
 .grid-three-items   { display: grid;  grid-template-columns: auto auto auto;   }
 
 /* width */
