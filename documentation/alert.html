@@ -8,22 +8,29 @@
     <link rel="stylesheet" href="../component.css">
     <link rel="stylesheet" href="documentation.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Images</title>
+    <title>Alert</title>
 </head>
 
 <body>
     <div class="container">
         <!-- Header -->
-        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+  <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+          <div class=" menu-icon " id="menu"> 
+              <span class="material-icons padding-24 ">
+            menu
+        </span> 
+    </div>
+           
             <img src="../assets/images/logo.svg" class="logo" alt="Logo">
-            <div class="d-flex w-100 justify-content-end">
-                <a href="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+            <div class="d-flex w-100 justify-content-end buttons">
+                <a href="intro.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
                 <a href="https://github.com/sanu29/Instant-UI" class="heading-3  margin-8 btn font-color-white">Github</a>
             </div>
 
-        </div>
+        </span> </div>
+
         <!-- Navigation -->
-        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+     <div class="nav d-flex flex-wrap justify-content-center text-primary border-color-gray " id="navbar">
             <ul class="ul-list component-list padding-none">
                 <li class="margin-8 font-weight-bolder para4">Getting Started</li>
                 <li class="component"><a href="intro.html">Introduction</a></li>
@@ -77,9 +84,9 @@
                     <div class="heading3 margin-8 padding-24 text-secondary">Simple Alerts</div>
                        <div class="para4 descreption-text">
                            For Simple Alerts just use alert class and alert keyword followed by the -variant names.</div>
-                    <div class="d-flex-row justify-content-center align-items-center">
+                    <div class="d-flex-row flex-wrap  justify-content-center align-items-center">
                         <div
-                            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
+                            class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
                             <div class="alert alert-primary">
                                 <p><strong>Primary!!! </strong> This is Primary Alert</p>
                             </div>
@@ -120,9 +127,9 @@
                     <div class="heading3 margin-8 padding-24 text-secondary">Outline Alerts</div>
                     <div class="para4 descreption-text">
                         For Outline Alerts just use alert class and alert keyword followed by the -outline-variant names.</div>
-                    <div class="d-flex-row justify-content-center align-items-center">
+                    <div class="d-flex-row flex-wrap  justify-content-center align-items-center">
                         <div
-                            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
+                            class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
                             <div class="alert alert-outline-primary">
                                 <p><strong>Primary!!! </strong> This is Primary outline Alert</p>
                             </div>
@@ -160,9 +167,9 @@
                     <div class="heading3 margin-8 padding-24 text-secondary">Solid Alerts</div>
                     <div class="para4 descreption-text">
                         For Solid Alerts just use alert class and alert keyword followed by the -solid-variant names.</div>
-                    <div class="d-flex-row justify-content-center align-items-center">
+                    <div class="d-flex-row  flex-wrap  justify-content-center align-items-center">
                         <div
-                            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
+                            class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
                             <div class="alert alert-solid-primary">
                                 <p><strong>Primary!!! </strong> This is Primary Alert</p>
                             </div>
@@ -198,7 +205,7 @@
                     <div class="heading3 margin-8 padding-24 text-secondary">Dismiss Alerts</div>
                     <div class="d-flex-row justify-content-center align-items-center">
                         <div
-                            class="example-output margin-8 padding-24  w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
+                            class="example-output flex-wrap margin-8 padding-24  w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
                             <div class="alert alert-danger" id="alert-dismiss">
                                 <div class="alert-text">Wanna see Magic? Click on Close</div>
                                 <div class="dismiss"> <i class="material-icons" id="dismiss">close</i></div>
@@ -229,7 +236,7 @@
                     <div class="heading3 margin-8 padding-24 text-secondary">Big Alerts</div>
                     <div class="d-flex-row justify-content-center align-items-center">
                         <div
-                            class="example-output margin-8 padding-24  w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
+                            class="example-output flex-wrap margin-8 padding-24  w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
                             <div class="alert alert-success d-flex-column">
                                 <div class="heading3">
                                     <i class="material-icons">beenhere</i>Hello
@@ -260,7 +267,7 @@
                      For Callout Alerts use alert class and alert followed by -callout-variant</div>
                     <div class="d-flex-row justify-content-center align-items-center">
                         <div
-                            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
+                            class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex-column justify-content-center align-items-center border-radius-sm">
 
                             <div class="alert alert-callout-primary" id="alert-dismiss">
                                 <div class="alert-text"><p>This is Primary Callout</p></div>
@@ -297,6 +304,8 @@
     </div>
 
 </body>
+
+<script src="./documentation.js"></script>
 <script src="../component-js/alert.js"></script>
 
 </html>

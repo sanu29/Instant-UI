@@ -14,16 +14,21 @@
 <body>
     <div class="container">
         <!-- Header -->
-        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
-              <img src="../assets/images/logo.svg" class="logo" alt="Logo">
-            <div class="d-flex w-100 justify-content-end">
-                <a link="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
-                <a link="github" class="heading-3  margin-8 btn font-color-white">Github</a>
+         <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+          <div class=" menu-icon " id="menu"> <span class="material-icons padding-24 ">
+            menu
+        </span> </div>
+           
+            <img src="../assets/images/logo.svg" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end buttons">
+                <a href="intro.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a href="https://github.com/sanu29/Instant-UI" class="heading-3  margin-8 btn font-color-white">Github</a>
             </div>
 
-        </div>
+        </span> </div>
+ 
         <!-- Navigation -->
-        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+     <div class="nav d-flex justify-content-center text-primary border-color-gray " id="navbar">
             <ul class="ul-list component-list padding-none">
                 <li class="margin-8 font-weight-bolder para4">Getting Started</li>
                 <li class="component"><a href="intro.html">Introduction</a>
@@ -74,7 +79,7 @@
                         For Modal, you can use the classes modal, modal-content, modal-text in below format.
                         <div class="d-flex-row justify-content-center align-items-center">
                             <div
-                                class="example-output margin-16 padding-16 border-1 border-color-gray w-75 d-flex justify-content-center align-items-center border-radius-sm">
+                                class="example-output flex-wrap margin-16 padding-16 border-1 border-color-gray w-75 d-flex justify-content-center align-items-center border-radius-sm">
 
                                 <button class="btn btn-primary " id="modal-btn">Click here for modal</button>
                                 <div class="modal">
@@ -120,7 +125,7 @@
                       
                             <div class="d-flex-row justify-content-center align-items-center">
                                 <div
-                                    class="example-output margin-16 padding-16 border-1 border-color-gray w-75 d-flex justify-content-center align-items-center border-radius-sm">
+                                    class="example-output flex-wrap margin-16 padding-16 border-1 border-color-gray w-75 d-flex justify-content-center align-items-center border-radius-sm">
                                     <div class="rating">
                                         <i class="material-icons star" id="star-1" >star</i>
                                         <i class="material-icons star" id="star-2">star</i>
@@ -141,3 +146,5 @@
                         </div>
 
                     <script src="../component-js/modal.js"></script>
+                    
+                    <script src="./documentation.js"></script>

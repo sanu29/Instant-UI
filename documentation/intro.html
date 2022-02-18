@@ -14,16 +14,21 @@
 <body>
     <div class="container">
         <!-- Header -->
-        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
-              <img src="../assets/images/logo.svg" class="logo" alt="Logo">
-            <div class="d-flex w-100 justify-content-end">
-                <a link="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
-                <a link="github" class="heading-3  margin-8 btn font-color-white">Github</a>
+         <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+          <div class=" menu-icon " id="menu"> <span class="material-icons padding-24 ">
+            menu
+        </span> </div>
+           
+            <img src="../assets/images/logo.svg" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end buttons">
+                <a href="intro.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a href="https://github.com/sanu29/Instant-UI" class="heading-3  margin-8 btn font-color-white">Github</a>
             </div>
 
-        </div>
+        </span> </div>
+
         <!-- Navigation -->
-        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+     <div class="nav d-flex justify-content-center text-primary border-color-gray " id="navbar">
             <ul class="ul-list component-list padding-none">
                 <li class="margin-8 font-weight-bolder para4">Getting Started</li>
                 <li class="component"><a href="intro.html"  class="active">Introduction</a>
@@ -76,7 +81,7 @@
                       </div>
                       <div class="iframes  border-radius-sm">
                         <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading1%2520%2522%253E%2520Heading%25201%253C%252Fh1%253E%250A%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading2%2520%2522%253E%2520Heading%25202%253C%252Fh1%253E%250A%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading3%2520%2522%253E%2520Heading%25203%253C%252Fh1%253E%250A%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading4%2520%2522%253E%2520Heading%25204%253C%252Fh1%253E%250A%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading5%2520%2522%253E%2520Heading%25205%253C%252Fh1%253E"
+                                 src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%27https%253A%252F%252Finstantui-cl.netlify.app%252Fcomponent.css%27%253E"
                             style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
                         </iframe>
@@ -92,7 +97,7 @@
 
                               <div class="d-flex-row justify-content-center align-items-center w-100">
                                 <div
-                                    class="example-output margin-8 w-100  padding-24 border-1 border-color-gray d-flex justify-content-center align-items-center border-radius-sm">
+                                    class="example-output flex-wrap margin-8 w-100  padding-24 border-1 border-color-gray d-flex justify-content-center align-items-center border-radius-sm">
                             
                               <button class="btn btn-danger custom">Cancel</button>
 
@@ -105,3 +110,6 @@
                                   style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
                                   sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
                               </iframe>
+                              </div>
+                              
+                            <script src="./documentation.js"></script>

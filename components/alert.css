@@ -11,7 +11,7 @@
     font-weight: 500;
     line-height: 28px;
     width:100%;
-    min-width: 25rem;
+    min-width: 10rem;
     flex-direction: row;
     justify-content: flex-start;
 }

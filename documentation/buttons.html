@@ -14,16 +14,21 @@
 <body>
     <div class="container">
         <!-- Header -->
-        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
-              <img src="../assets/images/logo.svg" class="logo" alt="Logo">
-            <div class="d-flex w-100 justify-content-end">
-                <a link="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
-                <a link="github" class="heading-3  margin-8 btn font-color-white">Github</a>
+         <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+          <div class=" menu-icon " id="menu"> <span class="material-icons padding-24 ">
+            menu
+        </span> </div>
+           
+            <img src="../assets/images/logo.svg" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end buttons">
+                <a href="intro.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a href="https://github.com/sanu29/Instant-UI" class="heading-3  margin-8 btn font-color-white">Github</a>
             </div>
 
-        </div>
+        </span> 
+   </div>
         <!-- Navigation -->
-        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+     <div class="nav d-flex justify-content-center text-primary border-color-gray " id="navbar">
             <ul class="ul-list component-list padding-none">
                 <li class="margin-8 font-weight-bolder para4">Getting Started</li>
                 <li class="component"><a href="intro.html">Introduction</a>
@@ -74,7 +79,7 @@
                         For Simple Buttons just use btn class and btn keyword followed by the -variant names.</div>
                     <div class="d-flex-row justify-content-center align-items-center">
                         <div
-                            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+                            class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
                             <button class="btn btn-primary">Primary</button>
                             <button class="btn btn-danger">Danger</button>
                             <button class="btn btn-success">Success</button>
@@ -105,7 +110,7 @@
                     For Link Buttons just use btn class and btn keyword followed by the -link.</div>
                 <div class="d-flex-row justify-content-center align-items-center">
                     <div
-                        class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+                        class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
                         <a class="btn  btn-link" href="#"> Link </a>
                         <a class="btn  btn-link btn-info font-color-white" href="#"> Link </a>
 
@@ -129,7 +134,7 @@
                 For outline Buttons just use btn class and btn keyword followed by the -variant-outline names.</div>
             <div class="d-flex-row justify-content-center align-items-center">
                 <div
-                    class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+                    class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
                     <button class="btn btn-primary-outline">Primary</button>
                     <button class="btn btn-danger-outline">Danger</button>
                     <button class="btn btn-success-outline">Success</button>
@@ -158,7 +163,7 @@
             For icon Buttons just use btn , btn-icon and btn keyword followed by the -variant names.</div>
         <div class="d-flex-row justify-content-center align-items-center">
             <div
-                class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+                class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
                 <span class="material-icons heading2 btn btn-icon">
                     shopping_cart
                 </span>
@@ -190,7 +195,7 @@
         For button shadows we have two classes btn-margin-blur and btn-margin.</div>
     <div class="d-flex-row justify-content-center align-items-center">
         <div
-            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+            class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
             <div class="btn btn-margin-blur btn-success">Sucessfull</div>
             <div class="btn btn-margin btn-danger">Danger Here!</div>    
         </div>
@@ -214,7 +219,7 @@ style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow
         Action buttons are required for highlighting buttons that have an important action.</div>
     <div class="d-flex-row justify-content-center align-items-center">
         <div
-            class="example-output margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
+            class="example-output flex-wrap margin-8 padding-24 border-1 border-color-gray w-fit-content d-flex justify-content-center align-items-center border-radius-sm">
             <div class="position-relative d-flex justify-content-center align-items-center ">
                 <img src="../assets/images/avtar2.jpg" alt="avtar" class="avtar">
                 <i class="material-icons border-radius-lg position-absolute badge-action-button ">add</i>
@@ -236,3 +241,5 @@ style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow
 </iframe>
 
 </div>
+
+<script src="./documentation.js"></script>
