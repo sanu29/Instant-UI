@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../component.css">
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Utilities</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+              <img src="../assets/images/logo.svg" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end">
+                <a href="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a href="https://github.com/sanu29/Instant-UI" class="heading-3  margin-8 btn font-color-white">Github</a>
+            </div>
+
+        </div>
+        <!-- Navigation -->
+        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder para4">Getting Started</li>
+                <li class="component"><a href="intro.html">Introduction</a>
+                 <li class="component"><a href="color.html">Colors</a></li>
+                <li class="component"><a href="typo.html">Typography</a></li>
+                <li class="component"><a href="utilities.html">Utilities</a></li>
+                <hr class="divider">
+                <li class="margin-8 font-weight-bolder para4">Components</li>
+                <li class="component"><a href="alert.html">Alert</a></li>
+                <li class="component"><a href="avtar.html">Avtar</a></li>
+                <li class="component"><a href="badge.html">Badges</a></li>
+                <li class="component"><a href="buttons.html">Buttons</a></li>
+                <li class="component"><a href="cards.html">Cards</a></li>
+                <li class="component"><a href="grid.html">Grid</a></li>
+                <li class="component"><a href="headers.html">Headers</a></li>
+                <li class="component"><a href="images.html" class="active">Images</a></li>
+                <li class="component"><a href="input.html">Inputs</a></li>
+                <li class="component"><a href="list.html">List</a></li>
+                <li class="component"><a href="modals.html">Modals And SnackBar</a></li>
+                <li class="component"><a href="toast.html">Ratings</a></li>
+            </ul>
+        </div>
+        <!-- Nav on Page -->
+
+        <div class="nav-on-page">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder heading4 text-primary">On This Page</li>
+                <li class="component"><a href="#util">Utilites</a></li>
+          
+           
+
+            </ul>
+        </div>
+        <!-- MAIN -->
+        <div class="main ">
+            <div class="container-main">
+                <div class="heading2 font-weight-bolder text-primary padding-16">Utilities </div>
+                <table  class="w-100 para4 d-flex justify-content-center">
+                    <tr>
+                        <th class="padding-16  util-table-td">Class Name</th>
+                        <th class="padding-16 util-table-td">Suffix</th>
+                        <th class="padding-16  util-table-td">Description</th>
+                        <th class="padding-16 util-table-td">Example</th>
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">w-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> 25, 50, 75, 100, auto and auto-fit </td>
+                        <td class="padding-8 util-table-td margin-8">
+                            It gives width according to the parent. 
+                            </td>
+                            <td class="padding-8 util-table-td margin-8">
+                         w-100, w-auto and w-auto-fit 
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">margin-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> 4, 8, 16, 24, 32, 40 and 64 </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This classes will provide margin accordingly with unit px.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           margin-24
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">padding-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> 4, 8, 16, 24, 32, 40 and 64 </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This classes will provide padding accordingly with unit px.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           padding-24
+                        </td>      
+                    </tr>
+
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">opacity-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> 25, 50, 75 and 100 </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This classes will provide opacity accordingly with percentage as unit.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           opacity-24
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">box-shadow-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> sm, lg, deep and none </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This classes will provide or remove Box shadow.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                            box-shadow-none
+                        </td>      
+                    </tr>
+
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">overflow-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> hidden, scroll </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the overflow property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           overflow-hidden
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">position-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> absolute, relative </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the position property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           position-hidden
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">border-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> 1 to 5 </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the border of the element according to the pixel.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           border-2
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">border-color-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> primary, danger, info, success, grey and inherit</td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the border color of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           border-color-primary
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">border-color-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> primary, danger, muted, strong, info, success, grey and inherit</td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the border color of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           border-color-primary
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">border-radius-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> sm, md, lg, full and none</td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the border radius of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           border-radius-md
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">d-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> none, inline, block, inline-block and flex</td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the display property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           d-inline
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">d-flex-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> row, column, row-reverse and column-reverse  </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the display flex property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           d-flex-row
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">justify-content-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> start, end, center, between, around and evenly  </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the justify-content property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           justify-content-center
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">justify-items-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> start, end, center, between, around and evenly  </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the justify-items property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           justify-items-center
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">justify-self-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> start, end, center, between, around and evenly  </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the justify-self property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           justify-self-center
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">align-content-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> start, end, center, between, around and evenly  </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the align-content property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           align-content-center
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">align-items-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> start, end, center, between, around and evenly  </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the align-items property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           align-items-center
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">align-self-suffix</td>    
+                        <td class="padding-8 util-table-td margin-8"> start, end, center, between, around and evenly  </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will set the align-self property of the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           align-self-center
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">hidden</td>    
+                        <td class="padding-8 util-table-td margin-8"> - </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will hide the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                            hidden
+                        </td>      
+                    </tr>
+                    <tr class="util-table-tr  text-muted">
+                        <td class="padding-8 util-table-td margin-8">disp</td>    
+                        <td class="padding-8 util-table-td margin-8"> -  </td>
+                        <td class="padding-8 util-table-td margin-8">
+                           This will unhide the element.
+                        </td>
+                        <td class="padding-8 util-table-td margin-8">
+                            disp
+                        </td>      
+                    </tr>
+
+                </table>
