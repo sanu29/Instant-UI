@@ -35,7 +35,7 @@ body{
 .nav-on-page{
     grid-area: nav-on-page;
     width: 10rem;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-family: 'Inter', sans-serif;
     position: fixed;
     right: 5rem;
