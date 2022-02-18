@@ -14,16 +14,21 @@
 <body>
     <div class="container">
         <!-- Header -->
-        <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
-              <img src="../assets/images/logo.svg" class="logo" alt="Logo">
-            <div class="d-flex w-100 justify-content-end">
-                <a link="introduction.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
-                <a link="github" class="heading-3  margin-8 btn font-color-white">Github</a>
+         <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+          <div class=" menu-icon " id="menu"> <span class="material-icons padding-24 ">
+            menu
+        </span> </div>
+           
+            <img src="../assets/images/logo.svg" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end buttons">
+                <a href="intro.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a href="https://github.com/sanu29/Instant-UI" class="heading-3  margin-8 btn font-color-white">Github</a>
             </div>
 
-        </div>
+        </span> </div>
+
         <!-- Navigation -->
-        <div class="nav d-flex justify-content-center text-primary border-color-gray ">
+     <div class="nav d-flex justify-content-center text-primary border-color-gray " id="navbar">
             <ul class="ul-list component-list padding-none">
                 <li class="margin-8 font-weight-bolder para4">Getting Started</li>
                 <li class="component"><a href="intro.html">Introduction</a>
@@ -58,26 +63,26 @@
         <div class="main">
             <div class="container-main">
                 <div class="heading2 font-weight-bolder text-primary">Toast</div>
-                <div class="para5 margin-16">
+                <div class="para4 margin-16">
                     <!-- Intro -->
                     Toast, is a lightweight and easily customizable alert message.
                 </div>
 
-                <div class="simple-badges" id="toast">
+                <div class="simple-badges" id="toast-button">
                     <div class="heading3 margin-8 padding-24 text-secondary">Toast</div>
                   
                         <div class="d-flex-row justify-content-center align-items-center">
                             <div
-                                class="example-output margin-16 padding-16 border-1 border-color-gray w-75 d-flex justify-content-center align-items-center border-radius-sm">
+                                class="example-output flex-wrap margin-16 padding-16 border-1 border-color-gray w-75 d-flex justify-content-center align-items-center border-radius-sm">
                                 <button class="btn btn-info" id="toastbtn">Click here for Toast</button>
                                 <div class="toast hidden" id="toast">
                                   <div class="toast-txt"> Cannot send Photo. Retry after 5 seconds.</div>
                                   <div class="btn btn-link font-color-info align-self-center">RETRY </div>
-                                  <i class="material-icons btn btn-icon" id="dismiss">close</i>
+                                  <i class="material-icons btn btn-icon" id="toast-dismiss">close</i>
                                 </div>
                         </div>
                     </div></div>
-                    <div class="para5 descreption-text">
+                    <div class="para4 descreption-text">
                         HTML CODE</div>
                     <div class="iframes  border-radius-sm margin-24">
                         <iframe
@@ -92,3 +97,5 @@
 
 
 <script src="../component-js/toast.js"></script>
+
+<script src="./documentation.js"></script>

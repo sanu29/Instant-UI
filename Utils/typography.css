@@ -36,31 +36,24 @@
 .para1{
     font-size: 48px;
     line-height: 64px;
-    font-weight: 300;
+
 }
 
 .para2{
     font-size: 32px;
     line-height: 40px;
-    font-weight: 200;
+ 
 }
+
 .para3{
-    font-size: 48px;
-    line-height: 64px;  
-}
-.para4{
     font-size: 24px;
     line-height: 32px;
 }
-.para5{
+.para4{
     font-size: 16px;
     line-height: 24px;
 }
-.para6{
-    font-size: 12px;
-    line-height: 16px;
-}
-.para7{
+.para5{
     font-size:8px;
     line-height: 16px;
 }
@@ -70,12 +63,24 @@
 .text-align-center{ 
     text-align: center;
 }
+.text-align-left{ 
+    text-align: left;
+}
+.text-align-right{ 
+    text-align: right;
+}
 .text-muted {
     color: var(--gray);
 }
 .text-strike{
     text-decoration:line-through;
 }
+.text-underline{
+    text-decoration:underline;
+}
+
+
+
 .font-color-primary{
     color: var(--primary);
 }

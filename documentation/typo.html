@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../component.css">
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Typography</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+         <div class="header d-flex-row border-radius-none padding-none margin-none text-secondary">
+          <div class=" menu-icon " id="menu"> <span class="material-icons padding-24 ">
+            menu
+        </span> </div>
+           
+            <img src="../assets/images/logo.svg" class="logo" alt="Logo">
+            <div class="d-flex w-100 justify-content-end buttons">
+                <a href="intro.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
+                <a href="https://github.com/sanu29/Instant-UI" class="heading-3  margin-8 btn font-color-white">Github</a>
+            </div>
+
+        </span> </div>
+
+        <!-- Navigation -->
+     <div class="nav d-flex justify-content-center text-primary border-color-gray " id="navbar">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder para4">Getting Started</li>
+                <li class="component"><a href="intro.html">Introduction</a>
+                 <li class="component"><a href="color.html">Colors</a></li>
+                <li class="component"><a href="typo.html " class="active">Typography</a></li>
+                <li class="component"><a href="utilities.html">Utilities</a></li>
+                <hr class="divider">
+                <li class="margin-8 font-weight-bolder para4">Components</li>
+                <li class="component"><a href="alert.html">Alert</a></li>
+                <li class="component"><a href="avtar.html">Avatar</a></li>
+                <li class="component"><a href="badge.html" >Badges</a></li>
+                <li class="component"><a href="buttons.html">Buttons</a></li>
+                <li class="component"><a href="cards.html">Cards</a></li>
+                <li class="component"><a href="grid.html">Grid</a></li>
+                <li class="component"><a href="headers.html">Headers</a></li>
+                <li class="component"><a href="images.html">Images</a></li>
+                <li class="component"><a href="input.html">Inputs</a></li>
+                <li class="component"><a href="list.html">List</a></li>
+                <li class="component"><a href="modals.html">Modals And Rating</a></li>
+                <li class="component"><a href="toast.html">Toast</a></li>
+            </ul>
+        </div>
+        <!-- Nav on Page -->
+        <div class="nav-on-page">
+            <ul class="ul-list component-list padding-none">
+                <li class="margin-8 font-weight-bolder heading4 text-primary">On This Page</li>
+                <li class="component"><a href="#heading">Heading</a></li>
+                <li class="component"><a href="#para">Paragraph</a></li>
+                <li class="component"><a href="#fontcolor">Font Color</a></li>
+                <li class="component"><a href="#weight">Font Weight</a></li>
+                <li class="component"><a href="#alignment">Text Alignment</a></li>
+                <li class="component"><a href="#decoration">Text Decoration</a></li>
+
+            </ul>
+        </div>
+        <!-- MAIN -->
+        <div class="main">
+            <div class="container-main">
+                <div class="heading2 font-weight-bolder text-primary">Typography</div>
+                <div class="para4 margin-16">
+                    <!-- Intro -->
+                    Documentation for Instant UI for Typography for heading, paragraph and many things.
+                </div>
+
+                <div class="simple-badges" id="heading">
+                    <div class="heading3 margin-8 padding-24 text-secondary">Headings</div>
+                    <div class="para4 descreption-text">
+
+                        For heading you can use the class name from .heading1 to .heading5
+                      </div>
+                        <div class="d-flex-row justify-content-center align-items-center">
+                            <div
+                                class="example-output flex-wrap justify-content-center align-items-center margin-16 padding-16 border-1 border-color-gray w-100 d-flex-column flex-wrap justify-content-center border-radius-sm">
+                                        <h1 class="heading1 padding-8"> Heading 1</h1>
+                                        <h1 class="heading2 padding-8"> Heading 2</h1>
+                                        <h1 class="heading3 padding-8"> Heading 3</h1>
+                                        <h1 class="heading4 padding-8"> Heading 4</h1>
+                                        <h1 class="heading5 padding-8"> Heading 5</h1>
+                                                                 </div>
+                        </div>
+                    </div>
+                    <div class="para4 descreption-text">
+                        HTML CODE</div>
+                    <div class="iframes  border-radius-sm">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading1%2520%2522%253E%2520Heading%25201%253C%252Fh1%253E%250A%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading2%2520%2522%253E%2520Heading%25202%253C%252Fh1%253E%250A%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading3%2520%2522%253E%2520Heading%25203%253C%252Fh1%253E%250A%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading4%2520%2522%253E%2520Heading%25204%253C%252Fh1%253E%250A%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading5%2520%2522%253E%2520Heading%25205%253C%252Fh1%253E"
+                            style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
+                        </iframe>
+
+                    </div>
+                    <div class="simple-badges" id="para">
+                        <div class="heading3 margin-8 padding-24 text-secondary">Paragraph</div>
+                        <div class="para4 descreption-text">
+    
+                            For heading you can use the class name from .para1 to .para6
+                          </div>
+                            <div class="d-flex-row justify-content-center align-items-center">
+                                <div
+                                    class="example-output flex-wrap margin-16 padding-16 border-1 border-color-gray w-100 d-flex-column flex-wrap justify-content-center align-items-center border-radius-sm">
+                                            <p class="para1 padding-8"> Paragraph 1</p>
+                                            <p class="para2 padding-8"> Paragraph 2</p>
+                                            <p class="para3 padding-8"> Paragraph 3</p>
+                                            <p class="para4 padding-8"> Paragraph 4</p>
+                                            <p class="para4  padding-8"> Paragraph 5</p>
+                                                                     </div>
+                            </div>
+                        </div>
+                        <div class="para4 descreption-text">
+                            HTML CODE</div>
+                        <div class="iframes  border-radius-sm">
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para1%2520%2522%253E%2520Paragraph%25201%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para2%2520%2522%253E%2520Paragraph%25202%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para3%2520%2522%253E%2520Paragraph%25203%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para4%2520%2522%253E%2520Paragraph%25204%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para4%2520%2520%2522%253E%2520Paragraph%25205%253C%252Fp%253E"
+                                style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
+                            </iframe>
+    
+                        </div>
+                        <div class="simple-badges" id="fontcolor">
+                            <div class="heading3 margin-8 padding-24 text-secondary">Font color</div>
+                            <div class="para4 descreption-text">
+        
+                               For text in diffrent colors use the font-color class name followed by -variant .
+                              </div>
+                                <div class="d-flex-row justify-content-center align-items-center">
+                                    <div
+                                        class="example-output flex-wrap margin-16 padding-16 border-1   border-color-gray w-100 d-flex-column flex-wrap justify-content-center align-items-center border-radius-sm">
+                                                <p class="para3 font-color-white padding-8"> White Text</p>
+                                                <p class="para3  font-color-primary padding-8"> Primary Text</p>
+                                                <p class="para3  font-color-warning padding-8"> Warning Text</p>
+                                                <p class="para3  font-color-success padding-8"> Success Text</p>
+                                                <p class="para3   font-color-danger padding-8"> Danger Text</p>
+                                                <p class="para3   font-color-dark padding-8"> Dark Text</p>
+                                                                         </div>
+                                </div>
+                            </div>
+                            <div class="para4 descreption-text">
+                                HTML CODE</div>
+                            <div class="iframes  border-radius-sm">
+                                <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520font-color-white%2520%2522%253E%2520White%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520font-color-primary%2520%2522%253E%2520Primary%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520font-color-warning%2520%2522%253E%2520Warning%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520font-color-success%2520%2522%253E%2520Success%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520font-color-danger%2520%2522%253E%2520Danger%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520font-color-dark%2520%2522%253E%2520Dark%253C%252Fp%253E"
+
+                                    style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
+                                </iframe>
+        
+                            </div>
+
+
+                        <div class="simple-badges" id="weight">
+                            <div class="heading3 margin-8 padding-24 text-secondary">Font Weight</div>
+                            <div class="para4 descreption-text">
+        
+                               For text in diffrent weight use the font-weight class name followed by -variant .
+                                Variants can be light , normal, bold or bolder    
+                            </div>
+                                <div class="d-flex-row justify-content-center align-items-center">
+                                    <div
+                                        class="example-output flex-wrap margin-16 padding-16 border-1   border-color-gray w-100 d-flex-column flex-wrap justify-content-center align-items-center border-radius-sm">
+                                        
+                                                <p class="para3 font-weight-light  padding-8"> Light Font </p>
+                                                <p class="para3 font-weight-normal padding-8"> Normal Font </p>
+                                                <p class="para3 font-weight-bold  padding-8"> Bold Font </p>
+                                                <p class="para3  font-weight-bolder   padding-8"> Bolder Font</p>
+                                                                         </div>
+                                </div>
+                            </div>
+                            <div class="para4 descreption-text">
+                                HTML CODE</div>
+                            <div class="iframes  border-radius-sm">
+                                <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520font-weight-light%2522%253E%2520Light%2520Font%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520font-weight-normal%2522%253E%2520Normal%2520Font%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520font-weight-bold%2522%253E%2520Bold%2520Font%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520%2520font-weight-bolder%2522%253E%2520Bolder%2520Font%253C%252Fp%253E"
+
+                                    style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
+                                </iframe>
+        
+                            </div>
+                            <div class="simple-badges" id="alignment">
+                                <div class="heading3 margin-8 padding-24 text-secondary">Font Alignment</div>
+                                <div class="para4 descreption-text">
+            
+                                   For text with diffrent alignment use the text-align class name followed by -variant . Variant can be center , left or right.
+                                  </div>
+                                    <div class="d-flex-row justify-content-center align-items-center">
+                                        <div
+                                            class="example-output flex-wrap margin-16 padding-16 border-1   border-color-gray w-100 d-flex-column flex-wrap  border-radius-sm">
+                                            
+                                                    <p class="para4 padding-16 text-align-center"> Center Alignment </p>
+                                                    <p class="para4 padding-16 text-align-left"> Left Alignment </p>
+                                                    <p class="para4 padding-16 text-align-right"> Right Alignment </p>
+                                    
+                                                                             </div>
+                                    </div>
+                                </div>
+                                <div class="para4 descreption-text">
+                                    HTML CODE</div>
+                                <div class="iframes  border-radius-sm">
+                                    <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-align-center%2522%253E%2520Center%2520Alignment%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-align-left%2522%253E%2520Left%2520Alignment%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-align-right%2522%253E%2520Right%2520Alignment%2520%253C%252Fp%253E"
+                                        style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
+                                    </iframe>
+            
+                                </div>
+                                <div class="simple-badges" id="decoration">
+                                    <div class="heading3 margin-8 padding-24 text-secondary">Font Decoration</div>
+                                    <div class="para4 descreption-text">
+                
+                                       For text with decoration use the text class name followed by -variant .
+                                       Variant can be muted, underline or strike.
+                                      </div>
+                                        <div class="d-flex-row justify-content-center align-items-center">
+                                            <div
+                                                class="example-output flex-wrap margin-16 padding-16 border-1 justify-content-center align-items-center  border-color-gray w-100 d-flex-column flex-wrap  border-radius-sm">
+                                                
+                                                <p class="para4 text-muted padding-16"> Muted Text</p>
+                                                <p class="para4 text-strike padding-16"> Striked Text </p>
+                                                <p class="para4 text-underline padding-16"> Underlined Text </p>
+                                        
+                                                                                 </div>
+                                        </div>
+                                    </div>
+                                    <div class="para4 descreption-text">
+                                        HTML CODE</div>
+                                    <div class="iframes  border-radius-sm">
+                                        <iframe
+                                  
+                                            src="https://carbon.now.sh/embed?bg=rgba%281%2C22%2C39%2C1%29&t=night-owl&wt=none&l=auto&width=674&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Inconsolata&fs=12px&lh=143%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522padding-16%2522%253E%2520Muted%2520Text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522padding-16%2522%253E%2520Striked%2520Text%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522padding-16%2522%253E%2520Underlined%2520Text%2520%253C%252Fp%253E"
+
+                                            style="width: 100%; height: fit-content; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin " class="border-radius-sm">
+                                        </iframe>
+                
+                                    </div>
+
+                                    <script src="./documentation.js"></script>
