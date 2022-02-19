@@ -3,3 +3,9 @@
     width: auto;
     height: auto;
 }
+
+.image-responsive-round{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
