@@ -21,5 +21,16 @@ Instant UI is a styling open source framework. It is fast and flexible. With Ins
      <li><a href="https://instantui-cl.netlify.app/documentation/modals.html">Modals and Ratings</a></li>
      <li><a href="https://instantui-cl.netlify.app/documentation/toast.html">Toast</a></li>
     </ul></p>
-    <h1> Home Page Preview</h1>
-<img src="https://user-images.githubusercontent.com/51195476/154791056-c4ea4262-8edf-484b-a961-b78cb284cf6c.png" width="400">
+    <h1> Installation</h1>
+    
+ ![image](https://user-images.githubusercontent.com/51195476/154989956-8cbd2cb9-d18b-4b5a-b2b7-2e57696ab55a.png)
+    
+ <h1> Homepage </h1>
+ 
+ ![image](https://user-images.githubusercontent.com/51195476/154990476-53b8bba2-3961-4fe7-bea7-57d314634c36.png)
+
+## Stack
+<li>HTML</li>
+<li>JavaScript</li>
+<li>Css</li>
+
