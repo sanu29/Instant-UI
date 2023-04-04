@@ -10,6 +10,9 @@ Instant UI is a styling open source framework. It is fast and flexible. With Ins
   
   <h1>List of component</h1><p>
   <ul>
+
+
+  
     <li><a href="https://instantui-cl.netlify.app/documentation/alert.html">Alert</a></li>
      <li><a href="https://instantui-cl.netlify.app/documentation/avtar.html">Avtar</a></li>
      <li><a href="https://instantui-cl.netlify.app/documentation/badge.html">Badge</a></li>
