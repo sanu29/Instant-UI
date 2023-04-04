@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="documentation.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Introduction</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../scriptone.js"></script>
+    <script src="../scripttwo.js"></script>
+    <script>
+        function myfunc()
+        {
+            window.handlePay('642b0229ff8134555404f4c1','^i1yNIsMeZ6','Consumer','Test','testone@yopmail.com','1','9812236178')
+        }
+    </script>
 </head>
 
 <body>
@@ -21,6 +30,7 @@
 
             <a href="../index.html"><img src="../assets/images/logo.svg" class="logo" alt="Logo"></a> 
             <div class="d-flex w-100 justify-content-end buttons">
+                <p class="heading-3 margin-8 btn font-color-white " onclick="myfunc()">Pay for more features</p>
                 <a href="intro.html" class="heading-3 margin-8 btn font-color-white ">Documentation</a>
                 <a href="https://github.com/sanu29/Instant-UI"
                     class="heading-3  margin-8 btn font-color-white">Github</a>
